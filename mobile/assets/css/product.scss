@@ -1,0 +1,584 @@
+@import 'common';
+
+.product {
+    .page-header {
+        background-image: url(/mobile/assets/images/product/bg_page_header.jpg);
+    }
+}
+
+//product-list01
+.product-list {
+    .section-content {
+        .product-info {
+            figure {
+                padding: 0 8%;
+                .img-fluid {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .details {
+                margin-top: 40px;
+                p {
+                    font-size: 15px;
+                    line-height: 22px;
+                    color: #333;
+                    font-weight: 400;
+                    word-break: keep-all;
+                    strong {
+                        color: #4a90e2;
+                    }
+                }
+                .dott-list {
+                    margin-top: 30px;
+                    > li {
+                        & ~ li {
+                            margin-top: 20px;
+                        }
+                        > dl {
+                            position: relative;
+                            font-size: 0;
+                            font-size: 12px;
+                            color: #999;
+                            padding-left: 10px;
+                            dt {
+                                display: inline;
+                                font-weight: 300;
+                                line-height: 20px;
+                                &:before {
+                                    position: absolute;
+                                    top: 1px;
+                                    left: 0;
+                                    content: "\E801";
+                                    font-size: 10px;
+                                    color: #999;
+                                    font-family: "fontello";
+                                }
+                                &:after {
+                                    position: relative;
+                                    top: 0;
+                                    content: " : ";
+                                    display: inline;
+                                }
+                            }
+                            dd {
+                                display: inline;
+                                font-weight: 300;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.product-list01 {
+        .section-content {
+            .depth-list {
+                margin-top: 50px;
+                .article-content {
+                    margin-top: 25px;
+                    > ul {
+                        > li {
+                            & ~ li {
+                                margin-top: 10px;
+                            }
+                            padding: 40px 10px 30px;
+                            border: 1px solid #dfdfdf;
+                            figure {
+                                padding: 0 5%;
+                                .img-fluid {
+                                    width: 100%;
+                                }
+                            }
+                            .summary {
+                                margin-top: 40px;
+                                text-align: center;
+                                h4 {
+                                    font-size: 16px;
+                                    color: #333;
+                                    font-weight: 600;
+                                    @include maven();
+                                    letter-spacing: 1px;
+                                }
+                                p {
+                                    font-size: 12px;
+                                    color: #666;
+                                    line-height: 18px;
+                                    margin-top: 20px;
+                                }
+                                .btn-area {
+                                    margin-top: 25px;
+                                    .btn-lg {
+                                        font-size: 12px;
+                                        color: #fff;
+                                        width: 100%;
+                                        line-height: 36px;
+                                        font-weight: 300;
+                                        text-align: center;
+                                        &.btn-blue {
+                                            background-color: #4c91e2;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.product-list02 {
+        .section-content {
+            .depth-list {
+                margin-top: 50px;
+                .article-content {
+                    padding-top: 20px;
+                    > ul {
+                        > li {
+                            padding: 40px 10px;
+                            border-bottom: 1px solid #dfdfdf;
+                            .product-item {
+                                > a {
+                                    display: block;
+                                    figure {
+                                        padding: 0 5%;
+                                        .img-fluid {
+                                            width: 100%;
+                                        }
+                                    }
+                                    .summary {
+                                        margin-top: 25px;
+                                        text-align: center;
+                                        h4 {
+                                            font-size: 16px;
+                                            color: #0c3c8e;
+                                            font-weight: 600;
+                                            @include maven();
+                                        }
+                                        p {
+                                            font-size: 12px;
+                                            color: #757575;
+                                            line-height: 18px;
+                                            margin-top: 10px;
+                                        }
+                                    }
+                                }
+                            }
+                            .btn-area {
+                                margin-top: 25px;
+                                font-size: 0;
+                                .btn-md {
+                                    font-size: 14px;
+                                    color: #fff;
+                                    width: 48%;
+                                    line-height: 36px;
+                                    font-weight: 300;
+                                    text-align: center;
+                                    margin-right: 4%;
+                                    &:last-child {
+                                        margin-right: 0;
+                                    }
+                                    &:before {
+                                        font-family: "fontello";
+                                        margin-right: 10px;
+                                    }
+                                    &.btn-blue {
+                                        background-color: #4c91e2;
+                                        &:before {
+                                            content: "\E809";
+                                        }
+                                    }
+                                    &.btn-gray {
+                                        background-color: #929292;
+                                        &:before {
+                                            content: "\E80E";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//product-view
+.product-view {
+    padding-bottom: 55px;
+    .product-nav {
+        height: 35px;
+        .dropdown {
+            float: left;
+            width: 50%;
+            &:first-child {
+                border-right: 1px solid #ffff;
+            }
+        }
+    }
+    .product-details {
+        padding-top: 40px;
+        text-align: center;
+        h3 {
+            font-size: 21px;
+            color: #0c3c8e;
+            font-weight: 500;
+            @include maven();
+        }
+        p {
+            font-size: 13px;
+            color: #333;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        .article-content {
+            margin-top: 35px;
+            > figure {
+                margin-bottom: 20px;
+                padding: 0 10%;
+                .img-fluid {
+                    width: 100%;
+                }
+            }
+            .product-slide {
+                margin: 0 -5px;
+                li {
+                    margin: 0 5px;
+                    a {
+                        display: block;
+                        border: 1px solid #dfdfdf;
+                        > figure {
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .details {
+            margin-top: 35px;
+            text-align: left;
+            .dott-list {
+                > li {
+                    position: relative;
+                    padding-left: 15px;
+                    font-size: 12px;
+                    color: #757575;
+                    line-height: 18px;
+                    & ~ li {
+                        margin-top: 20px;
+                    }
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        font-size: 20px;
+                        color: #0c3c8e;
+                        content: "\E801";
+                        font-family: "fontello";
+                    }
+                    > ul {
+                        margin-top: 15px;
+                        > li {
+                            > dl {
+                                font-size: 11px;
+                                color: #999;
+                                dt {
+                                    display: inline-block;
+                                    font-weight: 300;
+                                    line-height: 20px;
+                                    &:before {
+                                        content: "- ";
+                                    }
+                                    &:after {
+                                        content: ":";
+                                        margin: 0 2px;
+                                    }
+                                }
+                                dd {
+                                    display: inline-block;
+                                    font-weight: 300;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 55px;
+                p {
+                    font-size: 0;
+                    & ~ p {
+                        margin-top: 10px;
+                    }
+                    .btn {
+                        height: 40px;
+                        line-height: 40px;
+                        color: #fff;
+                        &:before {
+                            font-family: "fontello";
+                            margin-right: 10px;
+                        }
+                        &.btn-lg {
+                            font-size: 13px;
+                            width: 100%;
+                        }
+                        &.btn-md {
+                            font-size: 12px;
+                        }
+                        &.btn-gray {
+                            background-color: #929292;
+                        }
+                        &.btn-specifications {
+                            &:before {
+                                content: "\E80F";
+                            }
+                        }
+                        &.btn-down {
+                            &:before {
+                                content: "\E809";
+                            }
+                        }
+                        &.btn-estimate {
+                            &:before {
+                                content: "\E80E";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-prev {
+        margin-top: 30px;
+        p {
+            > .btn-lg {
+                width: 100%;
+                font-size: 12px;
+                color: #fff;
+                line-height: 38px;
+                text-align: center;
+                background-color: #929292;
+            }
+        }
+    }
+}
+
+.nav-tablist {
+    margin-top: 55px;
+    .nav-tabs {
+        font-size: 0;
+        border: 0;
+        li {
+            display: block;
+            border: 0;
+            border-radius: 0;
+            &:first-child {
+                width: 100%;
+                margin-bottom: 10px;
+                .btn {
+                    width: 100%;
+                }
+            }
+            & ~ li {
+                float: left;
+                width: 48%;
+                margin-right: 4%;
+                .btn {
+                    width: 100%;
+                    display: inline-block;
+                }
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+            .btn {
+                height: 40px;
+                line-height: 40px;
+                color: #fff;
+                padding: 0;
+                border: 0;
+                border-radius: 0;
+                background-color: #929292;
+                &:before {
+                    font-family: "fontello";
+                    margin-right: 10px;
+                }
+                &.active {
+                    background-color: #4a90e2; 
+                }
+                &.btn-lg {
+                    font-size: 13px;
+                    width: 100%;
+                }
+                &.btn-md {
+                    font-size: 12px;
+                }
+                &.btn-specifications {
+                    &:before {
+                        content: "\E80F";
+                    }
+                }
+                &.btn-down {
+                    &:before {
+                        content: "\E809";
+                    }
+                }
+                &.btn-estimate {
+                    &:before {
+                        content: "\E80E";
+                    }
+                }
+            }
+        }
+    }
+}
+.tab-content {
+    margin-top: 40px;
+    .tab-pane {
+        > h3 {
+            font-size: 16px;
+            color: #333;
+            font-weight: 400;
+            margin-bottom: 20px;
+            padding-left: 25px;
+            background-image: url(/mobile/assets/images/investment/bg_sub_title.gif);
+            background-repeat: no-repeat;
+            background-size: 15px auto;
+            background-position: 0 50%;
+        }
+        h4 {
+            font-size: 13px;
+            color: #0c3c8e;
+            font-weight: bold;
+            @include maven();
+            margin-bottom: 10px;
+            & ~ h4 {
+                margin-top: 50px;
+            }
+            a {
+                float: right;
+                font-size: 12px;
+                color: #666;
+                &:before {
+                    content: "+ ";
+                }
+            }
+        }
+        .table-wrap {
+            margin-top: 25px;
+            .table {
+                table-layout: fixed;
+                margin: 0;
+                border-top: 2px solid #0c3c8e;
+                thead {
+                    tr {
+                        th {
+                            width: 50%;
+                            font-size: 12px;
+                            color: #333;
+                            font-weight: 400;
+                            text-align: center;
+                            padding: 15px 0;
+                            border: 1px solid #ccc;
+                            border-top: 0;
+                            border-left: 0;
+                            background-color: #f0f1f6;
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    @include maven();
+                    tr {
+                        td {
+                            font-size: 12px;
+                            color: #666;
+                            font-weight: 300;
+                            text-align: left;
+                            line-height: 18px;
+                            vertical-align: middle;
+                            padding: 15px 10px;
+                            border: 1px solid #ccc;
+                            border-top: 0;
+                            border-right: 0;
+                            &:first-child {
+                                color: #333;
+                                font-weight: 500;
+                                border-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            &.type-2 {
+                margin: 0;
+                tbody {
+                    th {
+                        font-size: 12px;
+                        font-weight: 400;
+                        vertical-align: middle;
+                        background-color: #f0f1f6;
+                        width: 30%;
+                        border: 0;
+                        border-bottom: 1px solid #ccc;
+                    }
+                    td {
+                        border-left: 0 !important;
+                    }
+                }
+            }
+        }
+        .table-responsive {
+            .table {
+                @include maven();
+                caption {
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: #fff;
+                    letter-spacing: 1px;
+                    padding: 0 10px;
+                    line-height: 40px;
+                    caption-side: top;
+                    background-color: #0c3c8e;
+                }
+                thead {
+                    tr {
+                        th {
+                            font-size: 13px;
+                            font-weight: 500;
+                            border: 0;
+                            border-bottom: 1px solid #292929;
+                            background: none;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 13px;
+                            color: #666;
+                            font-weight: 400;
+                            border: 0;
+                            border-bottom: 1px solid #d6d6d6;
+                            a {
+                                img {
+                                    width: 16px;
+                                }
+                            }
+                        }
+                        &:last-child {
+                            td {
+                                border-bottom: 1px solid #292929;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

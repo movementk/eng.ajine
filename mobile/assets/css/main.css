@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+figure {
+  margin: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+  dl dd {
+    margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+label {
+  font-weight: 400;
+  margin-bottom: 0; }
+
+a {
+  color: inherit; }
+  a:hover {
+    color: inherit;
+    text-decoration: none; }
+
+.btn {
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background: none;
+  box-shadow: none !important; }
+
+.form-group {
+  margin: 0; }
+
+.form-control {
+  border-radius: 0;
+  box-shadow: none !important; }
+
+.container {
+  max-width: 100% !important;
+  padding: 0 10px !important; }
+  .container .row {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .container .row .col-1,
+    .container .row .col-md-1,
+    .container .row .col-lg-1 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-2,
+    .container .row .col-md-2,
+    .container .row .col-lg-2 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-3,
+    .container .row .col-md-3,
+    .container .row .col-lg-3 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-4,
+    .container .row .col-md-4,
+    .container .row .col-lg-4 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-5,
+    .container .row .col-md-5,
+    .container .row .col-lg-5 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-6,
+    .container .row .col-md-6,
+    .container .row .col-lg-6 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-7,
+    .container .row .col-md-7,
+    .container .row .col-lg-7 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-8,
+    .container .row .col-md-8,
+    .container .row .col-lg-8 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-9,
+    .container .row .col-md-9,
+    .container .row .col-lg-9 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-10,
+    .container .row .col-md-10,
+    .container .row .col-lg-10 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-11,
+    .container .row .col-md-11,
+    .container .row .col-lg-11 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-12,
+    .container .row .col-md-12,
+    .container .row .col-lg-12 {
+      padding-left: 5px;
+      padding-right: 5px; }
+
+.jumbotron {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: none; }
+  .jumbotron .jumbo-slide {
+    position: relative; }
+    .jumbotron .jumbo-slide .visual-list {
+      width: 100%;
+      height: 350px;
+      padding-top: 90px;
+      text-align: center;
+      color: #fff;
+      outline: none;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+      .jumbotron .jumbo-slide .visual-list > p {
+        position: relative;
+        top: -30px;
+        font-size: 11px;
+        font-weight: 300;
+        margin-bottom: 15px;
+        opacity: 0;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+      .jumbotron .jumbo-slide .visual-list > h2 {
+        position: relative;
+        top: -30px;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Maven Pro', sans-serif;
+        letter-spacing: -1px;
+        line-height: 45px;
+        opacity: 0;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0.8s;
+        transition-delay: 0.8s; }
+      .jumbotron .jumbo-slide .visual-list.action > p {
+        top: 0;
+        opacity: 1; }
+      .jumbotron .jumbo-slide .visual-list.action > h2 {
+        top: 0;
+        opacity: 1; }
+      .jumbotron .jumbo-slide .visual-list.video {
+        position: relative;
+        overflow: hidden; }
+        .jumbotron .jumbo-slide .visual-list.video > video {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          transform: scale(2);
+          -ms-transform: scale(2);
+          -webkit-transform: scale(2); }
+    .jumbotron .jumbo-slide .slick-dots {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      width: 100%;
+      outline: none;
+      text-align: center; }
+      .jumbotron .jumbo-slide .slick-dots > li {
+        display: inline-block; }
+        .jumbotron .jumbo-slide .slick-dots > li > button {
+          width: 30px;
+          height: 5px;
+          display: block;
+          text-indent: -99999px;
+          border: 0;
+          background-color: #fff;
+          margin: 0 5px; }
+        .jumbotron .jumbo-slide .slick-dots > li.slick-active > button {
+          background-color: #eb2127; }
+
+.quick-menu {
+  padding: 20px 0;
+  background-color: #fafafc; }
+  .quick-menu > ul {
+    overflow: hidden; }
+    .quick-menu > ul > li {
+      float: left;
+      width: 25%; }
+      .quick-menu > ul > li > a {
+        text-align: center;
+        display: block; }
+        .quick-menu > ul > li > a figure img {
+          display: block;
+          margin: 0 auto; }
+        .quick-menu > ul > li > a figure figcaption {
+          font-size: 12px;
+          color: #333;
+          font-weight: 400;
+          margin-top: 15px; }
+      .quick-menu > ul > li:nth-of-type(1) > a figure img {
+        width: 31px; }
+      .quick-menu > ul > li:nth-of-type(2) > a figure img {
+        width: 32px; }
+      .quick-menu > ul > li:nth-of-type(3) > a figure img {
+        width: 32px; }
+      .quick-menu > ul > li:nth-of-type(4) > a figure img {
+        width: 33px; }
+
+.product {
+  padding: 40px 10px;
+  background-image: url(/mobile/assets/images/main/bg_product.gif);
+  background-size: 33px auto; }
+  .product h2 {
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif; }
+  .product .section-content {
+    margin-top: 30px; }
+    .product .section-content .product-tab .dropdown .btn-secondary {
+      width: 100%;
+      height: 45px;
+      font-size: 15px;
+      color: #2b2b33;
+      font-weight: 500;
+      line-height: 41px;
+      text-align: left;
+      padding: 0 10px;
+      font-family: 'Maven Pro', sans-serif;
+      background: none !important;
+      border: 2px solid #2b2b33; }
+      .product .section-content .product-tab .dropdown .btn-secondary:after {
+        width: auto;
+        font-size: 20px;
+        border: 0;
+        float: right;
+        content: "\E804";
+        font-family: "fontello"; }
+    .product .section-content .product-tab .dropdown .dropdown-menu {
+      min-width: 100%;
+      margin: 0;
+      padding: 0;
+      transform: translate3d(0px, 45px, 0px) !important;
+      border: 0;
+      border-radius: 0;
+      border-left: 1px solid #2b2b33;
+      border-right: 1px solid #2b2b33; }
+      .product .section-content .product-tab .dropdown .dropdown-menu > a {
+        height: 45px;
+        font-size: 15px;
+        color: #2b2b33;
+        font-weight: 500;
+        line-height: 41px;
+        text-align: left;
+        padding: 0 10px;
+        font-family: 'Maven Pro', sans-serif;
+        border: 0;
+        border-bottom: 1px solid #2b2b33;
+        background-image: url(/mobile/assets/images/main/bg_product.gif); }
+    .product .section-content .product-tab .dropdown.show .btn-secondary:after {
+      content: "\E805"; }
+    .product .section-content .product-list {
+      position: relative; }
+      .product .section-content .product-list .slick-arrow {
+        display: none !important;
+        /*position: absolute;
+        top: 12px;
+        font-size: 13px;
+        color: #2b2b33;
+        padding: 0;
+        border: 0;
+        background: none;
+        outline: none;
+        &.slick-prev {
+            left: 10px;
+        }
+        &.slick-next {
+            right: 10px;
+        }*/ }
+      .product .section-content .product-list .p-slide {
+        outline: none;
+        /*> h3 {
+            width: 100%;
+            height: 45px;
+            font-size: 15px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 41px;
+            @include maven();
+            border: 2px solid #2b2b33;
+        }*/ }
+        .product .section-content .product-list .p-slide > .summary {
+          font-size: 12px;
+          color: #666;
+          font-weight: lighter;
+          line-height: 18px;
+          margin-top: 25px; }
+        .product .section-content .product-list .p-slide .product-info {
+          overflow: hidden;
+          display: block;
+          width: 280px;
+          margin: 0 auto;
+          margin-top: 25px; }
+          .product .section-content .product-list .p-slide .product-info > .details {
+            position: relative;
+            left: -100px;
+            opacity: 0;
+            float: left;
+            width: 200px;
+            padding: 20px;
+            text-align: left;
+            background-color: #3e3e46;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 1.3s;
+            transition-duration: 1.3s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .product .section-content .product-list .p-slide .product-info > .details > h4 {
+              font-size: 16px;
+              color: #fff;
+              font-weight: 500;
+              font-family: 'Maven Pro', sans-serif; }
+            .product .section-content .product-list .p-slide .product-info > .details > hr {
+              display: block;
+              width: 30px;
+              margin: 10px 0;
+              border-top: 1px solid #fff; }
+            .product .section-content .product-list .p-slide .product-info > .details > p {
+              font-size: 11px;
+              font-weight: 300;
+              color: rgba(255, 255, 255, 0.5); }
+          .product .section-content .product-list .p-slide .product-info > figure {
+            position: relative;
+            right: -100px;
+            opacity: 0;
+            float: left;
+            width: 140px;
+            margin-left: -60px;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 1.3s;
+            transition-duration: 1.3s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .product .section-content .product-list .p-slide .product-info > figure .img-fluid {
+              width: 100%; }
+        .product .section-content .product-list .p-slide .btn-area {
+          margin-top: 10px; }
+          .product .section-content .product-list .p-slide .btn-area .btn-more {
+            width: 100%;
+            height: 35px;
+            font-size: 12px;
+            color: #333;
+            font-weight: 300;
+            line-height: 35px;
+            text-align: center;
+            background-color: #d8d8da; }
+    .product .section-content.on .product-list .p-slide.action .product-info > .details {
+      left: 0;
+      opacity: 1; }
+    .product .section-content.on .product-list .p-slide.action .product-info > figure {
+      right: 0;
+      opacity: 1; }
+
+.ajin-news {
+  padding: 40px 0 50px; }
+  .ajin-news h2 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-align: center; }
+  .ajin-news .section-content {
+    margin-top: 20px; }
+    .ajin-news .section-content > ul > li ~ li {
+      margin-top: 10px; }
+    .ajin-news .section-content > ul > li > a {
+      display: block;
+      padding: 15px;
+      border: 1px solid #ccc; }
+      .ajin-news .section-content > ul > li > a > h3 {
+        display: block;
+        font-size: 12px;
+        color: #666;
+        font-weight: 300;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .ajin-news .section-content > ul > li > a > .date {
+        font-size: 10px;
+        color: #999;
+        font-family: 'Maven Pro', sans-serif;
+        margin-top: 10px;
+        font-weight: 300; }
+    .ajin-news .section-content > .btn-area {
+      margin-top: 10px; }
+      .ajin-news .section-content > .btn-area p .btn-lg {
+        width: 100%;
+        height: 35px;
+        font-size: 12px;
+        color: #333;
+        font-weight: 300;
+        line-height: 35px;
+        text-align: center;
+        background-color: #d8d8da; }
+
+.new-products {
+  padding-bottom: 40px; }
+  .new-products h2 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center; }
+  .new-products .section-content {
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #191919; }
+    .new-products .section-content .new-list .slick-slide a {
+      display: block; }
+      .new-products .section-content .new-list .slick-slide a figure .img-fluid {
+        width: 100%; }
+    .new-products .section-content .slick-dots {
+      margin-top: 15px;
+      text-align: center; }
+      .new-products .section-content .slick-dots > li {
+        display: inline-block; }
+        .new-products .section-content .slick-dots > li button {
+          display: block;
+          width: 10px;
+          height: 10px;
+          margin: 0 3px;
+          padding: 0;
+          border: 0;
+          border-radius: 50%;
+          text-indent: -99999px;
+          background-color: #e5e5e5; }
+        .new-products .section-content .slick-dots > li.slick-active button {
+          background-color: #000; }
+
+.btn-popup {
+  display: block;
+  padding: 0;
+  width: 100px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 13px;
+  color: #000;
+  background-color: #999; }
+
+#main-popup .modal-dialog {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  #main-popup .modal-dialog .modal-content {
+    border: 0;
+    border-radius: 0;
+    background: none; }
+    #main-popup .modal-dialog .modal-content .modal-body {
+      position: relative;
+      border: 0;
+      padding: 0; }
+      #main-popup .modal-dialog .modal-content .modal-body .slick-dots {
+        position: absolute;
+        bottom: 10px;
+        right: 0; }
+        #main-popup .modal-dialog .modal-content .modal-body .slick-dots li {
+          display: inline-block; }
+          #main-popup .modal-dialog .modal-content .modal-body .slick-dots li button {
+            width: 14px;
+            height: 14px;
+            padding: 0;
+            margin: 0 3px;
+            display: block;
+            text-indent: -99999px;
+            background: none;
+            border-radius: 50%;
+            border: 1px solid #fff; }
+          #main-popup .modal-dialog .modal-content .modal-body .slick-dots li.slick-active button {
+            border: 1px solid #4a90e2;
+            background-color: #4a90e2; }
+    #main-popup .modal-dialog .modal-content .modal-footer {
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      margin-top: 15px; }
+      #main-popup .modal-dialog .modal-content .modal-footer label {
+        /*float: left;*/
+        font-size: 13px;
+        color: #fff;
+        line-height: 30px;
+        margin-right: auto; }
+        #main-popup .modal-dialog .modal-content .modal-footer label input {
+          position: relative;
+          top: 2px;
+          margin-right: 5px; }
+      #main-popup .modal-dialog .modal-content .modal-footer .btn-close {
+        float: right;
+        padding: 5px 10px;
+        color: #fff;
+        font-size: 13px;
+        background-color: #999; }
+
+/*# sourceMappingURL=main.css.map */

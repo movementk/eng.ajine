@@ -1,0 +1,415 @@
+@import 'common';
+
+body {
+    position: relative;
+    min-width: 320px;
+    width: 100%;
+    font-size: 12px;
+    color: #333;
+    font-weight: 400;
+    @include noto();
+    padding-top: 45px;
+}
+
+//Header
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    z-index: 200;
+    background-color: #fff;
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        margin-top: -12px;
+        > a {
+            display: block;
+            img {
+                display: block;
+                width: 110px;
+            }
+        }
+    }
+    .effect-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 90px;
+        > div {
+            float: left;
+            &.search-area {
+                > .btn-search {
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    text-align: center;
+                    line-height: 45px;
+                    .icon-search {
+                        font-size: 15px;
+                        color: #4a90e2;
+                    }
+                }
+                .global-search {
+                    display: none;
+                    &.show-search {
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        display: table;
+                        z-index: 400;
+                        width: 100%;
+                        height: 100%;
+                        padding-bottom: 20%;
+                    }
+                    .backdrop {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.9);
+                    }
+                    .align-box {
+                        display: table-cell;
+                        width: 100%;
+                        padding: 0 10%;
+                        vertical-align: middle;
+                        .form-group {
+                            position: relative;
+                            z-index: 101;
+                            width: 100%;
+                            margin: 0 auto;
+                            .form-control {
+                                width: 100%;
+                                height: 50px;
+                                font-size: 15px;
+                                color: #fff;
+                                font-weight: 400;
+                                border: 3px solid transparent;
+                                border-bottom-color: #fff;
+                                background: none;
+                                padding-left: 0;
+                                padding-right: 55px;
+                                &::placeholder {
+                                    color: #fff;
+                                    opacity: 1;
+                                    font-weight: 300;
+                                }
+                                &:-ms-input-placeholder {
+                                    color: #fff;
+                                    font-weight: 300;
+                                }
+                                &::-ms-input-placeholder {
+                                    color: #fff;
+                                    font-weight: 300;
+                                }
+                            }
+                            > .btn-search {
+                                position: absolute;
+                                top: -3px;
+                                right: 0;
+                                width: 50px;
+                                height: 50px;
+                                font-size: 15px;
+                                color: #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                background: none;
+                            }
+                            > .search-word {
+                                margin-top: 30px;
+                                > dt {
+                                    font-size: 12px;
+                                    font-weight: 300;
+                                    color: #fff;
+                                }
+                                > dd {
+                                    margin-top: 15px;
+                                    > ul {
+                                        overflow: hidden;
+                                        > li {
+                                            float: left;
+                                            width: 50%;
+                                            > a {
+                                                display: block;
+                                                width: 100%;
+                                                height: 35px;
+                                                font-size: 12px;
+                                                color: #b5b5b6;
+                                                font-weight: 300;
+                                                line-height: 33px;
+                                                text-align: center;
+                                                border: 1px solid #b5b5b6;
+                                                @include transition();
+                                                &.maven {
+                                                    @include maven();
+                                                }
+                                                &:hover, &:focus {
+                                                    color: #fff;
+                                                    background-color: #4a90e2;
+                                                    border-color: #4a90e2;
+                                                }
+                                            }
+                                            &:nth-of-type(2) ~ li {
+                                                > a {
+                                                    margin-top: 10px;
+                                                }
+                                            }
+                                            &:nth-of-type(2n + 1) {
+                                                clear: both;
+                                                padding-right: 5px;
+                                            }
+                                            &:nth-of-type(2n + 2) {
+                                                padding-left: 5px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.nav-btn-area {
+                > .btn {
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    > .bar {
+                        @include transition();
+                    }
+                    &.nav-open {
+                        background-color: #4a90e2;
+                        > .bar {
+                            display: block;
+                            width: 22px;
+                            height: 2px;
+                            border-radius: 10px;
+                            background-color: #fff;
+                            margin: 0 auto 4px;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    &.nav-close {
+                        position: relative;
+                        background-color: #4a90e2;
+                        > .bar {
+                            position: absolute;
+                            display: block;
+                            width: 22px;
+                            height: 2px;
+                            border-radius: 10px;
+                            background-color: #fff;
+                            margin: 0 auto;
+                            &:nth-of-type(1) {
+                                top: 22px;
+                                left: 11px;
+                                transform: rotate(135deg);
+                                -ms-transform: translate(135deg);
+                                -webkit-transform: translate(135deg);
+                            }
+                            &:nth-of-type(3) {
+                                top: 22px;
+                                right: 12px;
+                                transform: rotate(45deg);
+                                -ms-transform: translate(45deg);
+                                -webkit-transform: translate(45deg);
+                            }
+                            &:nth-of-type(2) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.scrolled {
+    #header {
+        border-bottom: 1px solid #ebebeb;
+    }
+}
+
+
+// gnb
+#gnb {
+    position: fixed;
+    top: 45px;
+    right: -100%;
+    width: 0;
+    height: 100%;
+    padding-bottom: 100px;
+    overflow: auto;
+    background-color: #fff;
+    @include transition();
+    > ul {
+        > li {
+            > a {
+                font-size: 15px;
+                font-weight: 400;
+                display: block;
+                line-height: 50px;
+                text-align: left;
+                padding: 0 10px;
+                @include transition();
+                border-top: 1px solid rgba(4, 76, 174, .5);
+                background-image: url(/mobile/assets/images/ico_plus.png);
+                background-repeat: no-repeat;
+                background-position: 96% 50%;
+                background-size: 19px auto;
+            }
+            &:last-child {
+                > a {
+                    border-bottom: 1px solid rgba(4, 76, 174, .5);
+                }
+            }
+            > ul {
+                display: none;
+                padding: 10px 20px;
+                @include transition();
+                > li {
+                    > a {
+                        display: block;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 40px;
+                        color: #044cae;
+                        &:before {
+                            content: "- ";
+                        }
+                    }
+                }
+            }
+            &.active {
+                > a {
+                    color: #fff;
+                    background-color: #4a90e2;
+                    border-color: #4a90e2 !important;
+                    background-image: url(/mobile/assets/images/ico_minus.png);
+                }
+                > ul {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.opened {
+    overflow: hidden;
+    #gnb {
+        right: 0;
+        width: 100%;
+    }
+}
+
+//Footer
+#footer {
+    border-top: 2px solid #3e3e46;
+    background-color: #fafafc;
+    .foot-nav {
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #ccc;
+        > ul {
+            font-size: 0;
+            > li {
+                display: inline-block;
+                font-size: 12px;
+                color: #333;
+                > a {
+                    font-weight: 400;
+                    display: inline-block;
+                }
+                &:after {
+                    display: inline-block;
+                    vertical-align: top;
+                    font-size: 10px;
+                    margin: 2px 15px 0;
+                    content: "\E801";
+                    font-family: "fontello";
+                }
+                &:last-child {
+                    &:after {
+                        content: "";
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    .company-info {
+        padding: 25px 0;
+        .information {
+            > ul {
+                font-size: 0;
+                display: block;
+                > li {
+                    font-size: 12px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 20px;
+                    display: inline;
+                    > dl {
+                        font-size: 0;
+                        display: inline;
+                        > dt {
+                            font-size: 12px;
+                            display: inline-block;
+                            font-weight: 300;
+                            &.bold-bl {
+                                font-weight: 500;
+                                color: #4a90e2;
+                            }
+                            &:after {
+                                content: ":";
+                                margin: 0 3px;
+                            }
+                        }
+                        > dd {
+                            font-size: 12px;
+                            display: inline;
+                            font-weight: 300;
+                            a {
+                                display: inline;
+                            }
+                            address {
+                                display: inline;
+                            }
+                        }
+                    }
+                    &:after {
+                        display: inline-block;
+                        vertical-align: top;
+                        font-size: 10px;
+                        content: "|";
+                        margin: -1px 8px 0;
+                    }
+                    &:last-child {
+                        &:after {
+                            content: "";
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        text-align: center;
+        color: #fff;
+        padding: 15px 0;
+        background-color: #3e3e46;
+        > p {
+            font-size: 12px;
+            line-height: 18px;
+            @include maven();
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,707 @@
+@import 'common';
+
+.introduction {
+    &.space {
+        #content {
+            padding-bottom: 0;
+        }
+    }
+}
+
+// 회사소개
+.introduce {
+    .section-header {
+        strong {
+            display: block;
+            font-size: 44px;
+            color: #393939;
+            font-weight: bold;
+            @include maven();
+            margin-top: 75px;
+            i {
+                font-style: normal;
+                color: #4a90e2;
+            }
+        }
+        b {
+            font-size: 24px;
+            color: #282828;
+            font-weight: 400;
+            margin-top: 30px;
+            line-height: 42px;
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+            font-weight: 300;
+            line-height: 30px;
+            margin-top: 30px;
+        }
+    }
+    .section-content {
+        .slogan {
+            text-align: center;
+            padding: 195px 0 130px;
+            background-image: url(/assets/images/introduction/bg_introduce.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+            background-attachment: fixed;
+            figure {
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            p {
+                font-size: 22px;
+                color: #fff;
+                line-height: 36px;
+                font-weight: 400;
+                margin-top: 40px;
+            }
+        }
+        .innovation {
+            padding-bottom: 120px;
+            background-color: #f7f7f7;
+            .article-header {
+                text-align: center;
+                padding: 110px 0;
+                h4 {
+                    font-size: 44px;
+                    color: #333;
+                    font-weight: bold;
+                    @include maven();
+                }
+                b {
+                    display: block;
+                    font-size: 24px;
+                    color: #282828;
+                    font-weight: 500;
+                    margin-top: 40px;
+                    i {
+                        font-style: normal;
+                        color: #4a90e2;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #999;
+                    line-height: 30px;
+                    margin-top: 30px;
+                }
+            }
+            .article-content {
+                ul {
+                    li {
+                        position: relative;
+                        figure {
+                            text-align: center;
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                            figcaption {
+                                margin-top: 50px;
+                                dl {
+                                    dt {
+                                        font-size: 18px;
+                                        color: #666;
+                                        font-weight: 300;
+                                        b {
+                                            font-size: 24px;
+                                            color: #222;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                    dd {
+                                        font-size: 16px;
+                                        color: #666;
+                                        font-weight: 300;
+                                        margin-top: 15px;
+                                    }
+                                }
+                                &:after {
+                                    position: absolute;
+                                    bottom: 0;
+                                    right: 0;
+                                    content: "";
+                                    display: block;
+                                    height: 70px;
+                                    border-right: 1px solid #dedede;
+                                }
+                            }
+                        }
+                        &:last-child {
+                            figure {
+                                figcaption {
+                                    &:after {
+                                        content: "";
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 연혁
+.history {
+    .section-header {
+        padding-bottom: 45px;
+    }
+    .section-content {
+        .history-list {
+            .content-head {
+                text-align: center;
+                p {
+                    font-size: 18px;
+                    color: #282828;
+                    font-weight: 400;
+                    line-height: 30px;
+                    b {
+                        color: #4a90e2;
+                        font-weight: 500;
+                    }
+                }
+                .tab-menu {
+                    margin-top: 45px;
+                }
+            }
+            .content-body {
+                margin-top: 95px;
+                .history-year {
+                    position: relative;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 50%;
+                        content: " ";
+                        width: 1px;
+                        height: 24px;
+                        margin-left: -0.5px;
+                        background-color: #fff;
+                        z-index: 1;
+                    }
+                    &:after {
+                        position: absolute;
+                        top: 0;
+                        left: 50%;
+                        display: block;
+                        width: 1px;
+                        height: 100%;
+                        content: " ";
+                        margin-left: -0.5px;
+                        background-color: #e5e5e5;
+                    }
+                    > li {
+                        display: table;
+                        width: 100%;
+                        overflow: hidden;
+                        padding-bottom: 80px;
+                        &:nth-of-type(odd) {
+                            .item {
+                                text-align: right;
+                                float: left;
+                                padding-right: 50px;
+                            }
+                            .details {
+                                text-align: left;
+                                float: right;
+                                padding-left: 50px;
+                                h4 {
+                                    &:before {
+                                        left: -54.5px;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(even) {
+                            .item {
+                                text-align: left;
+                                float: right;
+                                padding-left: 50px;
+                            }
+                            .details {
+                                text-align: right;
+                                float: left;
+                                padding-right: 50px;
+                                h4 {
+                                    &:before {
+                                        right: -54.5px;
+                                    }
+                                }
+                            }
+                        }
+                        > div {
+                            display: table-cell;
+                            width: 50%;
+                            &.item {
+                                figure {
+                                    img {
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                            &.details {
+                                h4 {
+                                    position: relative;
+                                    display: inline-block;
+                                    font-size: 48px;
+                                    color: #333;
+                                    font-weight: 500;
+                                    letter-spacing: -3px;
+                                    margin-bottom: 30px;
+                                    @include maven();
+                                    &:before {
+                                        position: absolute;
+                                        top: 24px;
+                                        display: block;
+                                        width: 9px;
+                                        height: 9px;
+                                        border-radius: 50%;
+                                        content: "";
+                                        z-index: 1;
+                                        background-color: #4a90e2;
+                                    }
+                                }
+                                > ul {
+                                    display: block;
+                                    > li {
+                                        font-size: 15px;
+                                        color: #666;
+                                        line-height: 28px;
+                                        font-weight: 400;
+                                        > b {
+                                            color: #4891dc;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 비전
+.vision {
+    .section-content {
+        .global-provider {
+            text-align: center;
+            padding-top: 50px;
+            background-image: url(/assets/images/introduction/bg_vision.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            .article-header {
+                text-align: center;
+                @include titi();
+                h4 {
+                    font-size: 48px;
+                    color: #393939;
+                    font-style: italic;
+                    font-weight: bold;
+                    text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.08);
+                    span {
+                        color: #4a90e2;
+                    }
+                }
+                dl {
+                    display: inline-block;
+                    margin-top: 20px;
+                    dt {
+                        position: relative;
+                        display: inline-block;
+                        font-size: 22px;
+                        color: #333;
+                        font-weight: 600;
+                        span {
+                            position: relative;
+                            top: -4px;
+                            display: inline-block;
+                            font-size: 24px;
+                            margin-right: 10px;
+                            small {
+                                position: absolute;
+                                bottom: -5px;
+                                left: -10px;
+                                font-size: 10px;
+                                font-weight: 600;
+                                white-space: nowrap;
+                                letter-spacing: -.5px;
+                                .icon-right-thin {
+                                    position: relative;
+                                    top: 2px;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                        img {
+                            position: relative;
+                            top: -2px;
+                            display: inline-block;
+                            margin: 0 6px 0 5px;
+                        }
+                        &:after {
+                            display: inline-block;
+                            content: " = ";
+                            margin: 0 10px;
+                        }
+                    }
+                    dd {
+                        font-size: 24px;
+                        color: #333;
+                        font-weight: 600;
+                        display: inline-block;
+                        font-style: italic;
+                        span {
+                            color: #4a90e2;
+                        }
+                    }
+                }
+            }
+            .article-content {
+                margin-top: 80px;
+                padding-bottom: 100px;
+                > ul {
+                    text-align: center;
+                    font-size: 0;
+                    li {
+                        position: relative;
+                        display: inline-block;
+                        width: 225px;
+                        height: 225px;
+                        padding-top: 45px;
+                        vertical-align: top;
+                        border-radius: 50%;
+                        box-shadow: 4px 6px 18px 0px rgba(0, 0, 0, 0.18);
+                        &:nth-of-type(1) {
+                            z-index: 3;
+                            margin-right: -10px;
+                            background-color: rgba(74, 144, 226, .9);
+                        }
+                        &:nth-of-type(2) {
+                            z-index: 2;
+                            background-color: rgba(255, 109, 70, .9);
+                        }
+                        &:nth-of-type(3) {
+                            z-index: 1;
+                            margin-left: -10px;
+                            background-color: rgba(20, 171, 204, .9);
+                        }
+                        figure {
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                            figcaption {
+                                font-size: 18px;
+                                color: #fff;
+                                margin-top: 20px;
+                                font-weight: 400;
+                                line-height: 28px;
+                            }
+                        }
+                    }
+                }
+                .summary {
+                    margin-top: 80px;
+                    h5 {
+                        font-size: 34px;
+                        color: #333;
+                        font-weight: 500;
+                        span {
+                            color: #4a90e2;
+                        }
+                        b {
+                            font-size: 34px;
+                            color: #4a90e2;
+                            font-weight: 500;
+                        }
+                    }
+                    p {
+                        font-size: 18px;
+                        color: #333;
+                        font-weight: 300;
+                        margin-top: 20px;
+                        b {
+                            font-weight: bold;
+                            color: #ce0808;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 조직도
+.group {
+    /*background-image: url(/assets/images/introduction/bg_group.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;*/
+    .section-content {
+        padding-bottom: 160px;
+        figure {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+// 아진소식 리스트
+.news-list {
+    .section-content {
+        .search-form {
+            .form-group {
+                .form-control {
+                    width: 100%;
+                }
+            }
+        }
+        .board-type01 {
+            margin-top: 60px;
+        }
+        .paging {
+            margin-top: 50px;
+        }
+    }
+}
+
+// 오시는길
+.location {
+    .section-header {
+        padding-bottom: 45px;
+    }
+    .section-content {
+        .information {
+            margin-top: 100px;
+            h4 {
+                font-size: 26px;
+                color: #333;
+                font-weight: 400;
+                &:before {
+                    color: #1081e0;
+                    content: "\E807";
+                    margin-right: 10px;
+                    font-family: "fontello";
+                }
+            }
+            .summary {
+                font-size: 15px;
+                color: #666;
+                line-height: 28px;
+                font-weight: 300;
+                margin-top: 30px;
+                word-break: keep-all;
+            }
+            .table-wrap {
+                margin: 50px 0 30px;
+                tbody {
+                    tr {
+                        td {
+                            padding-left: 45px;
+                            a {
+                                padding: 0;
+                                display: inline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 소식 뷰
+.news-view {
+    .section-content {
+        .view-content {
+            .btn-area {
+                margin: 30px 0 80px;
+                p {
+                    overflow: hidden;
+                    .btn {
+                        float: left;
+                        &.btn-blue {
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// CI 소개
+.corporate-identity {
+    .section-content {
+        article {
+            .article-title {
+                font-size: 20px;
+                color: #333;
+                line-height: 20px;
+                font-weight: 400;
+                padding-left: 10px;
+                border-left: 2px solid #4a90e2;
+            }
+            .summary {
+                font-size: 15px;
+                color: #666;
+                line-height: 26px;
+                font-weight: 300;
+                margin-top: 30px;
+            }
+            .note {
+                font-size: 14px;
+                color: #999;
+                font-weight: 300;
+                &:before {
+                    content: "* ";
+                }
+            }
+            .btn-down {
+                padding-right: 20px;
+                text-align: right;
+                p {
+                    font-size: 0;
+                    .btn {
+                        display: inline-block;
+                        font-size: 13px;
+                        color: #fff;
+                        width: 170px;
+                        height: 45px;
+                        text-align: center;
+                        line-height: 45px;
+                        margin-right: 10px;
+                        @include transition();
+                        &:hover {
+                            opacity: .7;
+                        }
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        &:before {
+                            content: "\E803";
+                            margin-right: 10px;
+                            font-family: "fontello";
+                        }
+                        &.btn-gray {
+                            background-color: #929292;
+                        }
+                        &.btn-blue {
+                            background-color: #4a90e2;
+                        }
+                    }
+                }
+            }
+            .article-content {
+                margin-top: 50px;
+            }
+            & ~ article {
+                margin-top: 110px;
+            }
+            &.symbol-mark {
+                .article-content {
+                    padding: 100px 0 30px;
+                    text-align: center;
+                    background-image: url(/assets/images/introduction/bg_ci.gif);
+                    border: 1px solid #ebebeb;
+                    figure {
+                        img {
+                            display: block;
+                            margin: 0 auto;
+                        }
+                    }
+                    .note {
+                        margin-top: 60px;
+                    }
+                    .btn-down {
+                        padding-right: 20px;
+                        margin-top: 35px;
+                    }
+                }
+            }
+            &.symbol-color {
+                .article-content {
+                    .color-list {
+                        overflow: hidden;
+                        > li {
+                            float: left;
+                            margin-right: 15px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                            figure {
+                                img {
+                                    display: block;
+                                }
+                                figcaption {
+                                    font-size: 13px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.logo-type {
+                .article-content {
+                    padding: 160px 0 30px;
+                    text-align: center;
+                    background-image: url(/assets/images/introduction/bg_ci.gif);
+                    border: 1px solid #ebebeb;
+                    figure {
+                        display: inline-block;
+                        &:first-child {
+                            margin-right: 100px;
+                        }
+                    }
+                    .btn-down {
+                        margin-top: 130px;
+                    }
+                }
+            }
+            &.signature {
+                .article-content {
+                    > ul {
+                        > li {
+                            > div {
+                                position: relative;
+                                text-align: center;
+                                padding: 160px 0;
+                                background-image: url(/assets/images/introduction/bg_ci.gif);
+                                border: 1px solid #ebebeb;
+                                h6 {
+                                    position: absolute;
+                                    top: 30px;
+                                    right: 30px;
+                                    font-size: 15px;
+                                    color: #333;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                    .btn-down {
+                        padding-right: 0;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,612 @@
+@import 'common';
+
+// HEADER
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1200px;
+    height: 85px;
+    z-index: 101;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(#fff, .3);
+    @include transition();
+    .logo {
+        font-size: 0;
+        margin-top: 18px;
+        > a {
+            > img {
+                &.default-img {
+                    display: block;
+                }
+                &.scroll-img {
+                    display: none;
+                }
+            }
+        }
+    }
+    .language {
+        float: left;
+        padding: 32px 0;
+        > li {
+            display: inline-block;
+            color: #fff;
+            &:after {
+                content: "\E801";
+                font-family: "fontello";
+                margin: 0 8px;
+            }
+            &:last-child {
+                &:after {
+                    content: "";
+                    margin: 0;
+                }
+            }
+            a {
+                display: inline-block;
+                font-size: 14px;
+                font-weight: bold;
+                @include maven();
+            }
+        }
+    }
+    .global-search {
+        float: right;
+        margin: 0 10px;
+        padding: 18px 0 17px;
+        .form-group {
+            position: relative;
+        }
+        .btn {
+            position: relative;
+            z-index: 1;
+            &.default-btn {
+                display: block;
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+                color: #fff;
+                line-height: 46px;
+                text-align: center;
+                border: 2px solid #fff;
+                border-radius: 5px;
+                @include transition();
+                &:hover {
+                    opacity: .8;
+                }
+            }
+            &.event-btn {
+                position: absolute;
+                top: -2px;
+                right: 0;
+                display: none;
+                width: 55px;
+                height: 55px;
+                line-height: 55px;
+                color: #fff;
+                font-size: 23px;
+                @include transition();
+                .icon-search {
+                    position: relative;
+                    top: -10px;
+                }
+                &:hover {
+                    opacity: .7;
+                }
+            }
+        }
+        .search-word {
+            margin-top: 30px;
+            overflow: hidden;
+            > dt {
+                float: left;
+                width: 100px;
+                font-size: 16px;
+                color: #fff;
+                line-height: 35px;
+                font-weight: 400;
+                clear: both;
+            }
+            > dd {
+                > ul {
+                    overflow: hidden;
+                    > li {
+                        float: left;
+                        margin-right: 10px;
+                        > a {
+                            display: block;
+                            width: 100px;
+                            height: 35px;
+                            font-size: 13px;
+                            color: #b4b4b4;
+                            line-height: 33px;
+                            border: 1px solid #b4b4b4;
+                            text-align: center;
+                            @include transition();
+                            &:hover {
+                                color: #fff;
+                                border-color: #4a90e2;
+                                background-color: #4a90e2;
+                            }
+                        }
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &.show-search {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0;
+            display: table;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 10%;
+            .backdrop {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 101;
+                background-color: rgba(0, 0, 0, .9);
+            }
+            .align-box {
+                display: table-cell;
+                vertical-align: middle;
+                .form-group {
+                    position: relative;
+                    z-index: 102;
+                    width: 670px;
+                    display: block;
+                    margin: 0 auto;
+                    .form-control {
+                        color: #fff;
+                        width: 100%;
+                        height: 55px;
+                        font-size: 25px;
+                        padding: 0;
+                        padding-right: 60px;
+                        padding-bottom: 20px;
+                        border: 2px solid transparent;
+                        border-bottom: 2px solid #fff;
+                        background-color: transparent;
+                        &::placeholder { 
+                            color: #fff;
+                            font-weight: 300;
+                        }
+                        &:-ms-input-placeholder {
+                            color: #fff;
+                            font-weight: 300;
+                        }
+                        &::-ms-input-placeholder {
+                            color: #fff;
+                            font-weight: 300;
+                        }
+                    }
+                }
+                .btn {
+                    &.default-btn {
+                        display: none;
+                    }
+                    &.event-btn {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+//scrolled
+.scrolled {
+    #header {
+        background-color: #fff;
+        border-bottom: 1px solid #ebebeb;
+        .logo {
+            > a {
+                > img {
+                    &.default-img {
+                        display: none;
+                    }
+                    &.scroll-img {
+                        display: block;
+                    }
+                }
+            }
+        }
+        #gnb {
+            > ul {
+                > li {
+                    > a {
+                        color: #333;
+                    }
+                }
+            }
+        }
+        .language {
+            > li {
+                color: #999;
+            }
+        }
+        .global-search {
+            .default-btn {
+                color: #4a90e2;
+                border-color: #4a90e2;
+            }
+        }
+    }
+    &.nav-top {
+        #lnb {
+            position: fixed;
+            top: 85px;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+            background-color: #fff;
+        }
+    }
+}
+
+
+// gnb
+#gnb {
+    margin-right: 26px;
+    margin-left: -15px;
+    > ul {
+        display: block;
+        float: right;
+        > li {
+            float: left;
+            > a {
+                display: block;
+                font-size: 18px;
+                color: #fff;
+                line-height: 85px;
+                padding: 0 26px;
+            }
+            > div {
+                position: fixed;
+                top: 84px;
+                left: 0;
+                overflow: hidden;
+                width: 100%;
+                height: 0;
+                display: block;
+                @include transition();
+                background-color: #f7f7f8;
+                .depth-2 {
+                    display: table;
+                    width: 1200px;
+                    margin: 0 auto;
+                    table-layout: fixed;
+                    > div {
+                        display: table-cell;
+                        vertical-align: top;
+                        &.intro {
+                            padding: 35px 0;
+                            width: 240px;
+                            height: 100%;
+                            border-right: 1px solid #dfdfdf;
+                            h2 {
+                                font-size: 40px;
+                                color: #0c3c8e;
+                                font-weight: bold;
+                                small {
+                                    display: block;
+                                    font-size: 13px;
+                                    color: #ccc;
+                                    font-weight: bold;
+                                    letter-spacing: 1px;
+                                    margin-bottom: 10px;
+                                    @include roboto();
+                                }
+                            }
+                            p {
+                                font-size: 16px;
+                                color: #333;
+                                font-weight: 300;
+                                line-height: 26px;
+                                margin-top: 30px;
+                            }
+                        }
+                        &.page-map {
+                            position: relative;
+                            height: 100%;
+                            width: 960px;
+                            > ul {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                font-size: 0;
+                                width: 100%;
+                                height: 100%;
+                                > li {
+                                    display: inline-block;
+                                    width: 25%;
+                                    height: 225px;
+                                    vertical-align: top;
+                                    border-right: 1px solid #dfdfdf;
+                                    > div {
+                                        padding: 40px 30px;
+                                        &:first-child {
+                                            padding-bottom: 0;
+                                        }
+                                        h3 {
+                                            font-size: 15px;
+                                            color: #333;
+                                            a {
+                                                font-weight: bold;
+                                                @include transition();
+                                                span {
+                                                    font-weight: 500;
+                                                    @include roboto();
+                                                }
+                                            }
+                                        }
+                                        > ul {
+                                            margin-top: 30px;
+                                            > li {
+                                                > a {
+                                                    position: relative;
+                                                    display: inline-block;
+                                                    @include roboto();
+                                                    font-weight: 400;
+                                                    color: #999;
+                                                    font-size: 13px;
+                                                    margin-bottom: 10px;
+                                                    @include transition();
+                                                    &:before {
+                                                        content: "- ";
+                                                    }
+                                                    span {
+                                                        position: absolute;
+                                                        bottom: -2px;
+                                                        left: 50%;
+                                                        width: 0;
+                                                        height: 1px;
+                                                        display: block;
+                                                        background-color: #4a90e2;
+                                                        @include transition();
+                                                    }
+                                                    &:hover {
+                                                        color: #4a90e2;
+                                                        span {
+                                                            width: 100%;
+                                                            margin-left: -50%;
+                                                        }
+                                                    }
+                                                }
+                                                &:last-child {
+                                                    > a {
+                                                        margin-bottom: 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &:hover {
+                                            h3 {
+                                                color: #4a90e2;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.product-info {
+                    .depth-2 {
+                        > .page-map {
+                            > ul {
+                                > li {
+                                    > div {
+                                        &:first-child {
+                                            height: 224px;
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.opened {
+    #header {
+        background-color: #fff;
+        .logo {
+            > a {
+                > img {
+                    &.default-img {
+                        display: none;
+                    }
+                    &.scroll-img {
+                        display: block;
+                    }
+                }
+            }
+        }
+        #gnb {
+            > ul {
+                > li {
+                    > a {
+                        color: #333;
+                    }
+                    &.active {
+                        > a {
+                            color: #4a90e2;
+                        }
+                        > div {
+                            height: 225px;
+                            border-top: 2px solid #4a90e2;
+                            &.company-info {
+                                
+                            }
+                            &.investment-info {
+                                
+                            }
+                            &.product-info {
+                                height: 490px;
+                                .intro {
+                                    position: relative;
+                                    height: 490px;
+                                    .btn-area {
+                                        position: absolute;
+                                        bottom: 40px;
+                                        left: 0;
+                                        .btn-blue {
+                                            width: 186px;
+                                            height: 40px;
+                                            font-size: 14px;
+                                            color: #4a90e2;
+                                            text-align: center;
+                                            line-height: 38px;
+                                            border: 1px solid #4a90e2;
+                                            @include transition();
+                                            &:hover {
+                                                color: #fff;
+                                                background-color: #4a90e2;
+                                            }
+                                        }
+                                    }
+                                }
+                                .depth-2 {
+                                    .page-map {
+                                        > ul {
+                                            > li {
+                                                height: 490px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.customer-support {
+                                
+                            }
+                            &.recruitment-info {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .language {
+            > li {
+                color: #999;
+            }
+        }
+        .global-search {
+            .default-btn {
+                color: #4a90e2;
+                border-color: #4a90e2;
+            }
+        }
+    }
+}
+
+
+// FOOTER
+#footer {
+    border-top: 3px solid #aaa;
+    background-color: #fafafc;
+    .foot-nav {
+        padding: 20px 0;
+        border-bottom: 1px solid #dfdfdf;
+        ul {
+            overflow: hidden;
+            > li {
+                float: left;
+                a {
+                    display: inline-block;
+                    font-size: 14px;
+                    color: #666;
+                }
+                &:after {
+                    display: inline-block;
+                    margin: 0 15px;
+                    content: "\E801";
+                    font-family: "fontello";
+                }
+                &:last-child {
+                    &:after {
+                        content: "";
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    .company-info {
+        padding: 45px 0;
+        .information {
+            > ul {
+                display: block;
+                font-size: 0;
+                > li {
+                    display: inline-block;
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 26px;
+                    vertical-align: top;
+                    dl {
+                        display: inline-block;
+                        dt {
+                            display: inline-block;
+                            font-weight: 300;
+                            &.bl-bold {
+                                font-weight: 500;
+                                color: #4a90e2;
+                            }
+                            &:after {
+                                content: ":";
+                                color: #666;
+                                margin: 0 2px 0 5px;
+                            }
+                        }
+                        dd {
+                            display: inline-block;
+                            font-weight: 300;
+                        }
+                    }
+                    &:after {
+                        position: relative;
+                        top: -2px;
+                        content: "|";
+                        font-size: 10px;
+                        margin: 0 10px;
+                    }
+                    &:last-child {
+                        &:after {
+                            content: "";
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .copyright {
+            text-align: right;
+            .foot-logo {
+                font-size: 0;
+                margin-bottom: 25px;
+            }
+            > p {
+                font-size: 12px;
+                color: #999;
+                font-weight: 500;
+                line-height: 18px;
+                @include maven();
+            }
+        }
+    }
+}

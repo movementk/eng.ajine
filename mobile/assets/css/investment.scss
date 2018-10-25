@@ -1,0 +1,254 @@
+@import 'common';
+
+.investment {
+    .page-header {
+        background-image: url(/mobile/assets/images/investment/bg_page_header.jpg);
+    }
+}
+
+//재무정보
+.finance-information {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 45px;
+            }
+            h4 {
+                font-size: 16px;
+                color: #333;
+                font-weight: 400;
+                margin-bottom: 20px;
+                padding-left: 25px;
+                background-image: url(/mobile/assets/images/investment/bg_sub_title.gif);
+                background-repeat: no-repeat;
+                background-size: 15px auto;
+                background-position: 0 50%;
+            }
+            .table-responsive {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                
+                            }
+                            &.total {
+                                td {
+                                    color: #e10013;
+                                    background-color: #f8f8f8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//주식정보
+.stock-information {
+    .low-price {
+        color: #33aeff !important;
+        &:before {
+            font-family: "fontello";
+            content: "\E80A";
+        }
+    }
+    .high-price {
+        color: #e10013 !important;
+        &:before {
+            font-family: "fontello";
+            content: "\E80B";
+        }
+    }
+    .plus {
+        color: #e10013 !important;
+        &:before {
+            font-family: "fontello";
+            content: "\E80C";
+        }
+    }
+    .minus {
+        color: #33aeff !important;
+        &:before {
+            font-family: "fontello";
+            content: "\E80D";
+        }
+    }
+    .fluctuation {
+        &:after {
+            content: "%";
+        }
+    }
+    .section-content {
+        article {
+            .today-time {
+                font-size: 12px;
+                color: #333;
+                font-weight: 300;
+                margin-bottom: 10px;
+                i {
+                    font-style: normal;
+                    color: #e10013;
+                }
+            }
+            & ~ article {
+                margin-top: 20px;
+            }
+            &.today-informations {
+                > ul {
+                    display: table;
+                    width: 100%;
+                    table-layout: fixed;
+                    padding: 25px 0;
+                    border-top: 2px solid #0c3c8e;
+                    border-bottom: 1px solid #ccc;
+                    > li {
+                        display: table-cell;
+                        width: 50%;
+                        vertical-align: middle;
+                        text-align: center;
+                        &:first-child {
+                            border-right: 1px solid #ccc;
+                        }
+                        strong {
+                            display: inline-block;
+                            font-size: 28px;
+                            @include maven();
+                            font-weight: 500;
+                            &:before {
+                                position: relative;
+                                top: 4px;
+                                font-size: 36px;
+                                margin-right: 5px;
+                            }
+                        }
+                        dl {
+                            display: inline-block;
+                            text-align: left;
+                            overflow: hidden;
+                            dt {
+                                float: left;
+                                clear: both;
+                                font-size: 15px;
+                                color: #2b2b2b;
+                                width: 75px;
+                                font-weight: 300;
+                                line-height: 26px;
+                            }
+                            dd {
+                                display: inline-block;
+                                font-size: 15px;
+                                @include titi();
+                                font-weight: bold;
+                                display: inline-block;
+                                line-height: 26px;
+                                &:before {
+                                    margin-right: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .table-wrap {
+                    margin-top: 20px;
+                    > .table {
+                        text-align: center;
+                        margin: 0;
+                        table-layout: fixed;
+                        border-top: 2px solid #0c3c8e;
+                        > thead {
+                            tr {
+                                th {
+                                    width: 25%;
+                                    font-size: 14px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    padding: 15px 0;
+                                    border: 1px solid #ccc;
+                                    border-top: 0;
+                                    border-left: 0;
+                                    background-color: #f8f8f8;
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                        > tbody {
+                            tr {
+                                td {
+                                    font-size: 15px;
+                                    color: #333;
+                                    font-weight: bold;
+                                    @include titi();
+                                    padding: 20px 0;
+                                    border: 1px solid #ccc;
+                                    border-top: 0;
+                                    border-left: 0;
+                                    &:before {
+                                        content: "";
+                                    }
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.graph {
+                > div {
+                    & ~ div {
+                        margin-top: 10px;
+                    }
+                    figure {
+                        .img-fluid {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            &.days-infomation {
+                .table-responsive {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    border: 0;
+                                    border-bottom: 1px solid #ccc;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    border: 0;
+                                    border-bottom: 1px solid #ccc;
+                                    &.high-price, &.low-price {
+                                        &:before {
+                                            margin-right: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 40px;
+        }
+    }
+}
+
+//공시정보
+.disclosure-information {
+    .section-content {
+        .paging {
+            margin-top: 25px;
+        }
+    }
+}

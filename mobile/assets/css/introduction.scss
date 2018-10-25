@@ -1,0 +1,783 @@
+@import 'common';
+
+.introduction {
+    .page-header {
+        /*background-image: url(/mobile/assets/images/introduction/);*/
+    }
+}
+
+//연혁
+.history {
+    .section-content {
+        .year-tab {
+            text-align: center;
+            > ol {
+                overflow: hidden;
+                width: 100%;
+                > li {
+                    float: left;
+                    display: block;
+                    width: 30.66%;
+                    margin-right: 4%;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    > a {
+                        font-size: 12px;
+                        color: #333;
+                        display: block;
+                        text-align: center;
+                        font-weight: 300;
+                        line-height: 45px;
+                        border-radius: 30px;
+                        background-color: #e5e5e5;
+                    }
+                    &.active {
+                        > a {
+                            color: #fff;
+                            background-color: #4a90e2;
+                        }
+                    }
+                }
+            }
+        }
+        .history-list {
+            margin-top: 40px;
+            > ol {
+                position: relative;
+                width: 100%;
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    width: 1px;
+                    height: 10px;
+                    content: "";
+                    background-color: #fff;
+                    z-index: 1;
+                }
+                &:after {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    content: "";
+                    width: 1px;
+                    height: 100%;
+                    background-color: #e5e5e5;
+                }
+                > li {
+                    overflow: hidden;
+                    padding-bottom: 25px;
+                    > div {
+                        width: 50%;
+                        &.item {
+                            figure {
+                                .img-fulid {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                        &.details {
+                            h4 {
+                                position: relative;
+                                font-size: 19px;
+                                color: #333;
+                                font-weight: 500;
+                                @include maven();
+                                &:before {
+                                    position: absolute;
+                                    top: 9px;
+                                    display: block;
+                                    content: " ";
+                                    width: 7px;
+                                    height: 7px;
+                                    z-index: 2;
+                                    border-radius: 50%;
+                                    background-color: #4a90e2;
+                                }
+                            }
+                            ol {
+                                margin-top: 20px;
+                                li {
+                                    font-size: 12px;
+                                    color: #666;
+                                    font-weight: 400;
+                                    line-height: 17px;
+                                    word-break: keep-all;
+                                    b {
+                                        font-weight: 500;
+                                        color: #4891dc;
+                                    }
+                                    & ~ li {
+                                        margin-top: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(even) {
+                        .item {
+                            padding-left: 15px;
+                            float: right;
+                        }
+                        .details {
+                            padding-right: 15px;
+                            text-align: right;
+                            float: left;
+                            h4 {
+                                &:before {
+                                    right: -19px;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(odd) {
+                        .item {
+                            padding-right: 15px;
+                            float: left;
+                        }
+                        .details {
+                            padding-left: 15px;
+                            text-align: left;
+                            float: right;
+                            h4 {
+                                &:before {
+                                    left: -18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//비전
+.vision {
+    .section-content {
+        .global-provider {
+            background-image: url(/mobile/assets/images/introduction/bg_vision.png);
+            background-repeat: no-repeat;
+            background-position: 50% 10px;
+            background-size: 100% auto;
+            .article-header {
+                text-align: center;
+                h4 {
+                    font-size: 27px;
+                    font-style: italic;
+                    line-height: 30px;
+                    font-weight: bold;
+                    word-break: keep-all;
+                    @include titi();
+                    text-shadow: 0px 6px 2px rgba(0, 0, 0, 0.08);
+                    span {
+                        color: #4a90e2;
+                    }
+                }
+                p {
+                    margin-top: 30px;
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                        width: 230px;
+                    }
+                }
+            }
+            .article-content {
+                margin-top: 45px;
+                > ul {
+                    > li {
+                        position: relative;
+                        display: block;
+                        width: 224px;
+                        height: 224px;
+                        padding-top: 45px;
+                        margin: -10px auto 0 auto;
+                        border-radius: 50%;
+                        box-shadow: 0px 6px 2px 0px rgba(0, 0, 0, 0.08);
+                        &:nth-of-type(1) {
+                            z-index: 3;
+                            margin-top: 0;
+                            background-color: rgba(74, 144, 226, .9);
+                            figure {
+                                img {
+                                    width: 59px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            z-index: 2;
+                            background-color: rgba(255, 109, 70, .9);
+                            figure {
+                                img {
+                                    width: 61px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            z-index: 1;
+                            background-color: rgba(20, 171, 204, .9);
+                            figure {
+                                img {
+                                    width: 56px;
+                                }
+                            }
+                        }
+                        figure {
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                            figcaption {
+                                text-align: center;
+                                margin-top: 20px;
+                                color: #fff;
+                                font-size: 18px;
+                                line-height: 28px;
+                            }
+                        }
+                    }
+                }
+                .summary {
+                    margin-top: 55px;
+                    text-align: center;
+                    h6 {
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-weight: 500;
+                        color: #333;
+                        word-break: keep-all;
+                        span {
+                            color: #4a90e2;
+                        }
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #333;
+                        font-weight: 300;
+                        margin-top: 35px;
+                        b {
+                            color: #ce0808;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 조직도
+.group {
+    .section-content {
+        figure {
+            padding: 0 15%;
+            .img-fluid {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+//뉴스리스트
+.news-list {
+    .section-content {
+        .search-form {
+            .form-group {
+                padding-left: 0;
+            }
+        }
+        .default-board {
+            margin-top: 25px;
+        }
+        .paging {
+            margin-top: 25px;
+        }
+    }
+}
+
+//뉴스 뷰
+.news-view {
+    .section-content {
+        .btn-area {
+            margin-top: 30px;
+        }
+        .pagelink {
+            margin-top: 35px;
+        }
+    }
+}
+
+//오시는길
+.location {
+    .section-content {
+        .tab-menu {
+            > ul {
+                overflow: hidden;
+                > li {
+                    float: left;
+                    width: 48%;
+                    margin-right: 4%;
+                    &:nth-of-type(2n + 1) {
+                        clear: both;
+                    }
+                    &:nth-of-type(2n + 2) {
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(2) ~ li {
+                        > a {
+                            margin-top: 10px;
+                        }
+                    }
+                    > a {
+                        width: 100%;
+                        display: block;
+                        line-height: 45px;
+                        text-align: center;
+                        font-size: 13px;
+                        color: #333;
+                        font-weight: 400;
+                        border-radius: 30px;
+                        background-color: #e5e5e5;
+                    }
+                    &.active {
+                        > a {
+                            color: #fff;
+                            background-color: #4a90e2;
+                        }
+                    }
+                }
+            }
+        }
+        .information {
+            margin-top: 50px;
+            h4 {
+                font-size: 16px;
+                color: #333;
+                font-weight: 400;
+                margin-bottom: 10px;
+                &:before {
+                    content: "\F031";
+                    color: #1081e0;
+                    font-family: "fontello";
+                    margin-right: 10px;
+                }
+            }
+            p {
+                font-size: 12px;
+                color: #666;
+                font-weight: 300;
+                line-height: 26px;
+                word-break: keep-all;
+            }
+            .table-wrap {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                .table {
+                    text-align: left;
+                    margin: 0;
+                    table-layout: fixed;
+                    border-top: 2px solid #0c3c8e;
+                    tbody {
+                        tr {
+                            th {
+                                font-size: 12px;
+                                color: #282828;
+                                font-weight: 400;
+                                width: 80px;
+                                vertical-align: middle;
+                                padding: 20px 0 20px 10px;
+                                border: 0;
+                                border-bottom: 1px solid #dfdfdf;
+                                background-color: #f0f1f6;
+                            }
+                            td {
+                                font-size: 12px;
+                                color: #666;
+                                font-weight: 300;
+                                padding: 20px 0 20px 10px;
+                                border: 0;
+                                border-bottom: 1px solid #dfdfdf;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .maps {
+            figure {
+                .img-fluid {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+//ci
+.ci {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 50px;
+            }
+            .article-header {
+                h4 {
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: 400;
+                    padding-left: 10px;
+                    line-height: 16px;
+                    border-left: 2px solid #4a90e2;
+                }
+                p {
+                    font-size: 12px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 26px;
+                    margin-top: 20px;
+                    word-break: keep-all;
+                }
+            }
+            .article-content {
+                .drawing {
+                    position: relative;
+                    text-align: center;
+                    margin-top: 35px;
+                    padding: 60px 0;
+                    background-image: url(/mobile/assets/images/introduction/bg_ci.gif);
+                    background-size: 8px auto;
+                    border: 1px solid #f2f2f2;
+                    > h5 {
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                        font-size: 12px;
+                        color: #333;
+                        font-weight: 400;
+                    }
+                    figure {
+                        img {
+                            display: block;
+                            margin: 0 auto;
+                        }
+                    }
+                    & ~ .drawing {
+                        margin-top: 10px;
+                    }
+                    .attention {
+                        display: inline-block;
+                        font-size: 12px;
+                        color: #999;
+                        line-height: 20px;
+                        margin-top: 35px;
+                        &:before {
+                            content: "*";
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                .btn-area {
+                    text-align: center;
+                    margin-top: 50px;
+                    .btn-down {
+                        display: block;
+                        width: 165px;
+                        height: 36px;
+                        color: #fff;
+                        line-height: 36px;
+                        text-align: center;
+                        font-size: 14px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                        &:before {
+                            content: "\E809";
+                            font-family: "fontello";
+                            margin-right: 5px;
+                        }
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        &.btn-gray {
+                            background-color: #929292;
+                        }
+                        &.btn-blue {
+                            background-color: #4a90e2;
+                        }
+                    }
+                }
+            }
+            &.symbol {
+                .article-content {
+                    .drawing {
+                        figure {
+                            img {
+                                width: 155px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.symbol-color {
+                .article-content {
+                    margin-top: 35px;
+                    > ul {
+                        > li {
+                            &:nth-of-type(2) ~ li {
+                                figure {
+                                    margin-top: 30px;
+                                }
+                            }
+                            &:nth-of-type(2n + 1) {
+                                figure {
+                                    padding-right: 5px;
+                                }
+                            }
+                            &:nth-of-type(2n + 2) {
+                                figure {
+                                    padding-left: 5px;
+                                }
+                            }
+                            figure {
+                                .img-fluid {
+                                    width: 100%;
+                                }
+                                figcaption {
+                                    font-size: 12px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.logo-type {
+                .article-content {
+                    figure {
+                        img {
+                            width: 207px;
+                        }
+                    }
+                }
+            }
+            &.signature {
+                .article-content {
+                    .drawing {
+                        figure {
+                            &.kor {
+                                img {
+                                    width: 196px;
+                                }
+                            }
+                            &.eng {
+                                img {
+                                    width: 184px;
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 회사소개
+.introduce {
+    .section-content {
+        .details {
+            word-break: keep-all;
+            .article-header {
+                text-align: center;
+                h4 {
+                    font-size: 24px;
+                    color: #393939;
+                    font-weight: bold;
+                    line-height: 30px;
+                    @include maven();
+                    i {
+                        font-style: normal;
+                        color: #4a90e2;
+                    }
+                }
+                b {
+                    display: block;
+                    font-size: 18px;
+                    color: #282828;
+                    font-weight: 400;
+                    line-height: 26px;
+                    margin-top: 25px;
+                }
+                p {
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 18px;
+                    margin-top: 30px;
+                    word-break: keep-all;
+                }
+            }
+            .article-content {
+                text-align: center;
+                padding: 50px 0;
+                margin-top: 50px;
+                background-image: url(/mobile/assets/images/introduction/bg_introduce.jpg);
+                background-size: cover;
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                figure {
+                    img {
+                        width: 212px;
+                        margin: 0 auto;
+                        display: block;
+                    }
+                }
+                b {
+                    display: block;
+                    font-size: 15px;
+                    color: #fff;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-top: 35px;
+                }
+            }
+        }
+        .innovation {
+            .article-header {
+                text-align: center;
+                padding: 50px 0;
+                h4 {
+                    font-size: 24px;
+                    color: #393939;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                    @include maven();
+                }
+                b {
+                    font-size: 16px;
+                    color: #282828;
+                    font-weight: 400;
+                    line-height: 24px;
+                    word-break: keep-all;
+                    i {
+                        font-style: normal;
+                        color: #4a90e2;
+                    }
+                }
+                p {
+                    font-size: 13px;
+                    color: #666;
+                    line-height: 20px;
+                    margin-top: 20px;
+                }
+            }
+            .article-content {
+                text-align: center;
+                ul {
+                    li {
+                        padding-bottom: 60px;
+                        &:last-child {
+                            padding-bottom: 0;
+                        }
+                        figure {
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                        dl {
+                            margin-top: 25px;
+                            dt {
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #666;
+                                b {
+                                    color: #222;
+                                    font-weight: 500;
+                                }
+                            }
+                            dd {
+                                font-size: 12px;
+                                color: #999;
+                                font-weight: 300;
+                                margin-top: 20px;
+                            }
+                        }
+                        &:nth-of-type(1) {
+                            figure {
+                                img {
+                                    width: 61px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            figure {
+                                img {
+                                    width: 52px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            figure {
+                                img {
+                                    width: 54px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

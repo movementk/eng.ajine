@@ -1,0 +1,315 @@
+@import 'common';
+
+.investment {
+    .page-header {
+        .bg-backdrop {
+            background-image: url(/assets/images/investment/bg_page_header.jpg);
+        }
+    }
+    .lnb {
+        .lnb-list {
+            width: 33.33333%;
+        }
+    }
+}
+dl {
+    &.unit {
+        float: right;
+        margin: 10px 0;
+        &:before {
+            content: "(";
+        }
+        &:after {
+            content: ")";
+        }
+        dt {
+            display: inline-block;
+            font-size: 13px;
+            color: #666;
+            font-weight: 300;
+            &:after {
+                content: ":";
+                margin: 0 2px;
+            }
+        }
+        dd {
+            display: inline-block;
+            font-size: 13px;
+            color: #666;
+            font-weight: 300;
+        }
+    }
+}
+
+// 재무정보
+.finance-information {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 100px;
+            }
+            .table-wrap {
+                tbody {
+                    tr {
+                        &.total {
+                            td {
+                                color: #e10013;
+                                font-weight: 400;
+                                background-color: #f8f8f8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 공시정보
+.disclosure-information {
+    .section-content {
+        article {
+            .table-wrap {
+                .criteria {
+                    text-align: right;
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #333;
+                    margin-bottom: 20px;
+                    i {
+                        font-style: normal;
+                        color: #e10013;
+                    }
+                }
+            }
+            .paging {
+                margin-top: 60px;
+            }
+        }
+    }
+}
+
+// 주식정보
+.disclosure-information {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 60px;
+            }
+            .table-wrap {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                @include maven();
+                                &.fluctuation {
+                                    &:after {
+                                        content: "%";
+                                    }
+                                }
+                                &.plus {
+                                    color: #e10013 !important;
+                                    &:before {
+                                        content: "+";
+                                    }
+                                }
+                                &.minus {
+                                    color: #33aeff !important;
+                                    &:before {
+                                        content: "-";
+                                    }
+                                }
+                                &.high-price {
+                                    color: #e10013 !important;
+                                    &:before {
+                                        content: "\E80B";
+                                        font-family: "fontello";
+                                        margin-right: 3px;
+                                    }
+                                }
+                                &.low-price {
+                                    color: #33aeff !important;
+                                    &:before {
+                                        content: "\E80C";
+                                        font-family: "fontello";
+                                        margin-right: 3px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.today-informations {
+                ul {
+                    display: table;
+                    width: 100%;
+                    padding: 28px 0;
+                    border-top: 3px solid #0c3c8e;
+                    border-bottom: 1px solid #ccc;
+                    > li {
+                        display: table-cell;
+                        width: 50%;
+                        vertical-align: middle;
+                        text-align: center;
+                        &:first-child {
+                            border-right: 1px solid #ccc;
+                        }
+                        strong {
+                            font-size: 50px;
+                            color: #333;
+                            font-weight: 500;
+                            @include maven();
+                            &.high-price {
+                                color: #e10013 !important;
+                                &:before {
+                                    content: "\E80B";
+                                    font-family: "fontello";
+                                    margin-right: 5px;
+                                }
+                            }
+                            &.low-price {
+                                color: #33aeff !important;
+                                &:before {
+                                    content: "\E80C";
+                                    font-family: "fontello";
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        > dl {
+                            margin: 0 auto;
+                            text-align: left;
+                            overflow: hidden;
+                            display: inline-block;
+                            > dt {
+                                float: left;
+                                clear: both;
+                                width: 100px;
+                                font-size: 18px;
+                                color: #2b2b2b;
+                                line-height: 36px;
+                                font-weight: 400;
+                            }
+                            > dd {
+                                float: left;
+                                font-size: 18px;
+                                @include maven();
+                                font-weight: 500;
+                                line-height: 36px;
+                                &.fluctuation {
+                                    &:after {
+                                        content: "%";
+                                    }
+                                }
+                                &.plus {
+                                    color: #e10013 !important;
+                                    &:before {
+                                        content: "+";
+                                    }
+                                }
+                                &.minus {
+                                    color: #33aeff !important;
+                                    &:before {
+                                        content: "-";
+                                    }
+                                }
+                                &.high-price {
+                                    color: #e10013 !important;
+                                    &:before {
+                                        content: "\E80B";
+                                        font-family: "fontello";
+                                        margin-right: 3px;
+                                    }
+                                }
+                                &.low-price {
+                                    color: #33aeff !important;
+                                    &:before {
+                                        content: "\E80C";
+                                        font-family: "fontello";
+                                        margin-right: 3px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .table-wrap {
+                    .table {
+                        border-top: 3px solid #0c3c8e;
+                        thead {
+                            tr {
+                                th {
+                                    font-weight: 400;
+                                    height: 54px;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    height: 80px;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                    @include maven();
+                                    color: #333;
+                                    &.high-price {
+                                        color: #e10013 !important;
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                    &.low-price {
+                                        color: #33aeff !important;
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.days-infomation {
+                .table-wrap {
+                    .table {
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 15px;
+                                    color: #666;
+                                    font-weight: 300;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 60px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

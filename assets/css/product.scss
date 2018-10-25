@@ -1,0 +1,408 @@
+@import 'common';
+
+.product {
+    .page-header {
+        .bg-backdrop {
+            background-image: url(/assets/images/product/bg_page_header.jpg);
+        }
+    }
+}
+
+// 제품 리스트 1letter
+.product-list01 {
+    .section-content {
+    }
+}
+.depth-list {
+    margin-top: 90px;
+    .article-content {
+        margin-top: 30px;
+    }
+}
+.information {
+    .details {
+        > p {
+            font-size: 26px;
+            color: #333;
+            font-weight: 400;
+            line-height: 42px;
+            letter-spacing: -2px;
+            strong {
+                color: #4a90e2;
+            }
+        }
+        > ul {
+            margin-top: 50px;
+            > li {
+                &:before {
+                    position: relative;
+                    top: 4px;
+                    vertical-align: top;
+                    font-size: 10px;
+                    color: #999;
+                    content: "\E801";
+                    font-family: "fontello";
+                    margin-right: 5px;
+                }
+                > dl {
+                    display: inline-block;
+                    font-size: 14px;
+                    color: #999;
+                    overflow: hidden;
+                    > dt {
+                        float: left;
+                        clear: both;
+                        font-weight: 300;
+                        line-height: 24px;
+                        letter-spacing: -.5px;
+                        &:after {
+                            content: ":";
+                            margin: 0 3px;
+                        }
+                    }
+                    > dd {
+                        font-weight: 300;
+                        display: inline;
+                        line-height: 24px;
+                        letter-spacing: -.5px;
+                    }
+                }
+            }
+        }
+    }
+    figure {
+        .img-fluid {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+// 제품 리스트 1depth
+.product-list02 {
+    .section-content {
+        .article-content {
+            margin-top: 60px;
+        }
+    }
+}
+
+// 제품 뷰
+.product-view {
+    .section-content {
+        .product-tab-details {
+            .article-header {
+                display: table;
+                width: 100%;
+                padding: 70px 0;
+                border-bottom: 1px solid #dfdfdf;
+                > div {
+                    display: table-cell;
+                    width: 50%;
+                    vertical-align: top;
+                    &.product-summary {
+                        padding: 0 50px;
+                    }
+                    &.details-imgs {
+                        vertical-align: middle;
+                        > figure {
+                            .img-fluid {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                        > .slider-nav {
+                            position: relative;
+                            width: 420px;
+                            display: block;
+                            margin: 15px auto 0;
+                            /*margin-top: 15px;*/
+                            li {
+                                display: inline-block;
+                                width: 120px;
+                                margin-right: 15px;
+                                cursor: pointer;
+                                outline: none;
+                                figure {
+                                    display: block;
+                                    .img-fluid {
+                                        margin: 0 auto;
+                                    }
+                                }
+                            }
+                            .slick-arrow {
+                                cursor: pointer;
+                                position: absolute;
+                                top: 50%;
+                                width: 30px;
+                                height: 30px;
+                                line-height: 28px;
+                                padding: 0;
+                                margin-top: -15px;
+                                color: #666;
+                                border-radius: 50%;
+                                text-align: center;
+                                z-index: 1;
+                                border: 1px solid #ccc;
+                                background: none;
+                                outline: none;
+                                @include transition();
+                                &:hover {
+                                    color: #333;
+                                    border-color: #333;
+                                }
+                                &.slick-prev {
+                                    left: -50px;
+                                }
+                                &.slick-next {
+                                    right: -50px;
+                                }
+                            }
+                        }
+                    }
+                    > dl {
+                        > dt {
+                            font-size: 45px;
+                            color: #0c3c8e;
+                            font-weight: 500;
+                            @include maven();
+                        }
+                        > dd {
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #333;
+                        }
+                    }
+                    > .feature-list {
+                        margin-top: 50px;
+                        > li {
+                            font-size: 14px;
+                            color: #757575;
+                            font-weight: 300;
+                            line-height: 30px;
+                            &:before {
+                                position: relative;
+                                top: 1px;
+                                font-family: "fontello";
+                                color: #0c3c8e;
+                                font-size: 20px;
+                                margin-right: 10px;
+                                content: "\E801";
+                            }
+                            > dl {
+                                overflow: hidden;
+                                margin: 10px 0 10px 35px;
+                                font-size: 13px;
+                                > dt {
+                                    position: relative;
+                                    top: -1px;
+                                    float: left;
+                                    clear: both;
+                                    font-weight: 300;
+                                    line-height: 22px;
+                                    &:before {
+                                        content: "-";
+                                        margin-right: 4px;
+                                    }
+                                    &:after {
+                                        content: ":";
+                                        margin: 0 3px;
+                                    }
+                                }
+                                > dd {
+                                    float: left;
+                                    font-weight: 300;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                    > .nav-tabs {
+                        margin-top: 85px;
+                        border: 0;
+                        > li {
+                            margin-right: 10px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                            > a {
+                                font-size: 14px;
+                                width: 155px;
+                                height: 40px;
+                                text-align: center;
+                                color: #fff;
+                                line-height: 40px;
+                                padding: 0;
+                                border-radius: 0;
+                                border: 0;
+                                @include transition();
+                                &:before {
+                                    display: inline-block;
+                                    font-family: "fontello";
+                                    margin-right: 10px;
+                                }
+                                &.btn-gray {
+                                    &:hover {
+                                        background-color: #4a90e2;
+                                    }
+                                }
+                                &.btn-gray {
+                                    background-color: #929292;
+                                }
+                                &.specification {
+                                    &:before {
+                                        content: "\E802";
+                                    }
+                                }
+                                &.down {
+                                    &:before {
+                                        content: "\E803";
+                                    }
+                                }
+                                &.estimated {
+                                    &:before {
+                                        content: "\E804";
+                                    }
+                                }
+                                &.active {
+                                    background-color: #4a90e2;
+                                    &:hover {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .article-content {
+                padding: 60px 15px 0;
+                .sub-title {
+                    margin-bottom: 20px;
+                }
+                .table-wrap {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    font-size: 13px;
+                                    height: 45px;
+                                    color: #333;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                th {
+                                    height: 36px;
+                                    font-size: 13px;
+                                    color: #333;
+                                    @include maven();
+                                }
+                                td {
+                                    font-size: 13px;
+                                    height: 36px;
+                                    padding: 0 35px;
+                                    text-align: left;
+                                    @include maven();
+                                    &:first-child {
+                                        color: #333;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #down {
+                    .sub-title {
+                        margin: 0;
+                    }
+                    .table-wrap {
+                        h5 {
+                            font-size: 16px;
+                            color: #0c3c8e;
+                            font-weight: bold;
+                            margin: 50px 0 15px;
+                            @include maven();
+                            a {
+                                font-size: 15px;
+                                line-height: 19px;
+                                color: #666;
+                                float: right;
+                                &:before {
+                                    content: "+ ";
+                                }
+                            }
+                        }
+                        .table {
+                            tbody {
+                                tr {
+                                    th {
+                                        height: 40px;
+                                        padding: 10px 20px;
+                                    }
+                                    td {
+                                        height: 40px;
+                                        padding: 10px 20px;
+                                    }
+                                }
+                            }
+                        }
+                        &.manual {
+                            .table {
+                                width: 100%;
+                                text-align: center;
+                                @include maven();
+                                border: 0;
+                                border-top: 2px solid #0c3c8e;
+                                caption {
+                                    width: 100%;
+                                    color: #fff;
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    line-height: 56px;
+                                    padding: 0 15px;
+                                    caption-side: top;
+                                    background-color: #0c3c8e;
+                                }
+                                thead {
+                                    tr {
+                                        th {
+                                            font-size: 14px;
+                                            color: #333;
+                                            font-weight: 400;
+                                            padding: 20px 0;
+                                            border-bottom: 1px solid #292929;
+                                            background: none;
+                                        }
+                                    }
+                                }
+                                tbody {
+                                    tr {
+                                        td {
+                                            font-size: 13px;
+                                            color: #666;
+                                            font-weight: 400;
+                                            padding: 20px 0;
+                                            text-align: center;
+                                            vertical-align: middle;
+                                            border-bottom: 1px solid #d6d6d6;
+                                            a {
+                                                padding: 0;
+                                                display: inline-block;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        > .btn-area {
+            text-align: right;
+            margin-top: 30px;
+        }
+    }
+}

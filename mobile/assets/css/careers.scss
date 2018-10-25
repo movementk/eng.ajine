@@ -1,0 +1,357 @@
+@import 'common';
+
+.careers {
+    .page-header {
+        background-image: url(/mobile/assets/images/careers/bg_page_header.jpg);
+    }
+}
+
+//채용정보
+.careers-info {
+	.talent {
+		.section-header {
+			.summary {
+				font-size: 14px;
+				color: #666;
+			}
+		}
+		.section-content {
+			.talent-list {
+				font-size: 0;
+				text-align: center;
+				> li {
+					position: relative;
+					display: block;
+					width: 158px;
+					height: 158px;
+					margin: 0 auto;
+					z-index: 3;
+					border-radius: 50%;
+					background-color: rgba(255, 123, 88, 0.9);
+					box-shadow: 4px 6px 18px 0px rgba(0, 0, 0, 0.18);
+					& ~ li {
+						margin-top: -36px;
+						display: inline-block;
+					}
+					&:nth-of-type(2) {
+						z-index: 2;
+						margin-right: -8px;
+						background-color: rgba(92, 155, 229, 0.9);
+					}
+					&:nth-of-type(3) {
+						z-index: 1;
+						margin-left: -8px;
+						background-color: rgba(43, 179, 209, 0.9);
+					}
+					.circle {
+						display: table;
+						width: 100%;
+						height: 100%;
+						figure {
+							display: table-cell;
+							vertical-align: middle;
+							text-align: center;
+							img {
+								display: block;
+								width: 40px;
+								margin: 0 auto; 
+							}
+							figcaption {
+								margin-top: 7px;
+								h3 {
+									font-size: 18px;
+									color: #fff;
+									font-weight: 400;
+								}
+								p {
+									font-size: 11px;
+									color: #fff;
+									line-height: 14px;
+									font-weight: 300;
+									margin-top: 8px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.title {
+		font-size: 18px;
+		color: #fff;
+		font-weight: 400;
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 2px;
+			height: 15px;
+			background-color: #fff;
+			margin-right: 10px;
+		}
+	}
+	//채용 안내
+	.infomation {
+		padding-top: 55px;
+		padding-bottom: 45px;
+		background-image: url(/mobile/assets/images/careers/bg_infomation.jpg);
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: cover;
+		.section-header {
+			padding: 0;
+			text-align: left;
+		}
+		.section-content {
+			margin-top: 30px;
+			padding-bottom: 0;
+			> ul {
+				> li {
+					&:nth-of-type(odd) {
+						.steps {
+							float: right;
+							margin-right: 10px;
+						}
+					}
+					&:nth-of-type(even) {
+						.steps {
+							float: left;
+							margin-left: 10px;
+						}
+					}
+					&:nth-of-type(2) ~ li {
+						.steps {
+							margin-top: 30px;
+						}
+					}
+					.steps {
+						display: table;
+						width: 105px;
+						height: 105px;
+						text-align: center;
+						border-radius: 50%;
+						margin: 0 auto;
+						background-color: #5c9be5;
+						.details {
+							display: table-cell;
+							width: 100%;
+							height: 100%;
+							vertical-align: middle;
+							i {
+								font-style: normal;
+								font-size: 11px;
+								color: #fff;
+								font-weight: 400;
+								@include lato();
+							}
+							h5 {
+								font-size: 13px;
+								color: #fff;
+								font-weight: 400;
+								margin-top: 5px;
+							}
+							p {
+								font-size: 11px;
+								color: #fff;
+								font-weight: 300;
+								margin-top: 5px;
+								line-height: 14px;
+							}
+						}
+					}
+					
+				}
+			}
+			.summary {
+				margin-top: 45px;
+				> li {
+					position: relative;
+					padding-left: 30px;
+					& ~ li {
+						margin-top: 20px;
+					}
+					span {
+						position: absolute;
+						top: 1px;
+						left: 0;
+						display: inline-block;
+						width: 19px;
+						height: 19px;
+						font-size: 12px;
+						color: #000;
+						font-weight: bold;
+						line-height: 19px;
+						text-align: center;
+						border-radius: 50%;
+						background-color: #fff;
+						@include lato();
+					}
+					dl {
+						font-size: 0;
+						dt {
+							display: inline-block;
+							font-size: 13px;
+							color: #fff;
+							font-weight: 400;
+							&:after {
+								content: ":";
+								margin: 0 4px;
+							}
+						}
+						dd {
+							display: inline;
+							font-size: 13px;
+							color: #fff;
+							font-weight: 300;
+							line-height: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	// 인사제도
+	.systems {
+		padding-top: 50px;
+		.section-header {
+			padding: 0;
+			text-align: left;
+			.title {
+				color: #333;
+				&:before {
+					background-color: #4a90e2;
+				}
+			}
+		}
+		.section-content {
+			margin-top: 30px;
+			> figure {
+				img {
+					display: block;
+					margin: 0 auto;
+				}
+			}
+			.systems-list {
+				margin-top: 30px;
+				> li {
+					font-size: 13px;
+					color: #333;
+					font-weight: 400;
+					span {
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						font-size: 12px;
+						line-height: 20px;
+						color: #fff;
+						text-align: center;
+						font-weight: bold;
+						border-radius: 50%;
+						background-color: #4a90e2;
+						margin-right: 10px;
+						@include lato ();
+					}
+					& ~ li {
+						margin-top: 14px;						
+					}
+				}
+			}
+		}
+	}
+	//복지
+	.welfare {
+		.bg-welfare {
+			width: 100%;
+			height: 260px;
+			background-image: url(/mobile/assets/images/careers/bg_welfare.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+		.table-wrap {
+			.table {
+				tbody {
+					tr {
+						&:nth-of-type(odd) {
+							td {
+								&:nth-of-type(odd) {
+									background-color: #134292;
+								}
+								&:nth-of-type(even) {
+									background-color: #184694;
+								}
+							}
+						}
+						&:nth-of-type(even) {
+							td {
+								&:nth-of-type(odd) {
+									background-color: #184694;
+								}
+								&:nth-of-type(even) {
+									background-color: #134292;
+								}
+							}
+						}
+						&:last-child {
+							td {
+								border-bottom: 0;
+							}
+						}
+						td {
+							width: 33.33%;
+							padding: 0;
+							vertical-align: middle;
+							border: 0;
+							height: 100px;
+							text-align: center;
+							border-right: 1px solid #244f99;
+							border-bottom: 1px solid #244f99;
+							&:last-child {
+								border-right: 0;
+							}
+                            .item {
+                                width: 50px;
+                                height: 28px;
+                                margin: 0 auto;
+                            }
+                            > p {
+                                font-size: 12px;
+                                color: #fff;
+                                font-weight: 300;
+                                margin-top: 10px;
+                            }
+							/*> a {
+								display: block;
+							}*/
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

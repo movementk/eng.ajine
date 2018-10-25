@@ -1,0 +1,522 @@
+@import 'common';
+
+.customer {
+    .page-header {
+        background-image: url(/mobile/assets/images/customer/bg_page_header.jpg);
+    }
+}
+
+.sub-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    line-height: 16px;
+    @include maven();
+    border-left: 2px solid #4a90e2;
+}
+
+//다운로드
+.download {
+    .section-content {
+        .down-list {
+            margin-top: 30px;
+            .table-responsive {
+                .table {
+                    @include maven();
+                    caption {
+                        font-size: 13px;
+                        font-weight: 500;
+                        color: #fff;
+                        letter-spacing: 1px;
+                        padding: 0 10px;
+                        line-height: 40px;
+                        caption-side: top;
+                        background-color: #0c3c8e;
+                    }
+                    thead {
+                        tr {
+                            th {
+                                font-size: 13px;
+                                font-weight: 500;
+                                border: 0;
+                                border-bottom: 1px solid #292929;
+                                background: none;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 13px;
+                                color: #666;
+                                font-weight: 400;
+                                border: 0;
+                                border-bottom: 1px solid #d6d6d6;
+                                a {
+                                    img {
+                                        width: 16px;
+                                    }
+                                }
+                            }
+                            &:last-child {
+                                td {
+                                    border-bottom: 1px solid #292929;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .software-list {
+            margin-top: 30px;
+            .accordion {
+                .card {
+                    border: 0;
+                    border-radius: 0;
+                    & ~ .card {
+                        margin-top: 10px;
+                    }
+                    .card-header {
+                        padding: 0;
+                        background: none;
+                        border: 0;
+                        .btn {
+                            font-size: 13px;
+                            color: #fff;
+                            width: 100%;
+                            padding: 0 10px;
+                            line-height: 38px;
+                            @include maven();
+                            text-align: left;
+                            font-weight: 500;
+                            text-decoration: none !important;
+                            background-color: #0c3c8e;
+                            border: 1px solid #0c3c8e;
+                            &:after {
+                                font-family: "fontello";
+                                float: right;
+                                content: "\E805";
+                            }
+                            &.collapsed {
+                                color: #333;
+                                border: 1px solid #ccc;
+                                background-color: #fff;
+                                &:after {
+                                    content: "\E804";
+                                }
+                            }
+                        }
+                    }
+                    .card-body {
+                        padding: 0;
+                        .table-wrap {
+                            .table {
+                                border: 0;
+                                margin: 0;
+                                tbody {
+                                    tr {
+                                        td {
+                                            padding: 15px 10px;
+                                            font-size: 13px;
+                                            color: #666;
+                                            font-weight: 400;
+                                            vertical-align: middle;
+                                            text-align: left;
+                                            @include maven();
+                                            border: 0;
+                                            border-bottom: 1px solid #d6d6d6;
+                                            > a {
+                                                &:first-child {
+                                                    float: left;
+                                                    &:before {
+                                                        font-family: "fontello";
+                                                        content: "\E801";
+                                                        color: #4a90e2;
+                                                        margin-right: 5px;
+                                                    }
+                                                }
+                                                &:last-child {
+                                                    float: right;
+                                                    img {
+                                                        width: 14px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//qna-list
+.qna-list {
+    .section-content {
+        .search-form {
+            .form-group {
+                padding-left: 0;
+            }
+        }
+        .default-board {
+            margin-top: 30px;
+            ul {
+                li {
+                    a {
+                        dl {
+                            dd {
+                                .success {
+                                    display: inline-block;
+                                    font-weight: 300;
+                                    padding: 0 10px;
+                                    color: #fff;
+                                    background-color: #ccc;
+                                }
+                                .waiting {
+                                    display: inline-block;
+                                    padding: 0 10px;
+                                    font-weight: 300;
+                                    color: #333;
+                                    border: 1px solid #ccc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .paging {
+            margin-top: 25px;
+        }
+    }
+}
+
+//qna-view
+.qna-view {
+    .section-content {
+        .board-view {
+            .reply {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 20px 15px 40px;
+                border: 1px solid #dfdfdf;
+                background-color: #fafafc;
+                h5 {
+                    position: relative;
+                    font-size: 12px;
+                    color: #df0603;
+                    display: inline-block;
+                    font-weight: 400;
+                }
+                p {
+                    font-size: 11px;
+                    color: #666;
+                    margin-top: 20px;
+                    font-weight: 300;
+                    line-height: 16px;
+                    word-break: keep-all;
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+        }
+        .pagelink {
+            margin-top: 35px;
+        }
+    }
+}
+
+//qna-write
+.qna-write, .request-wirte {
+    .section-content {
+        .table-wrap {
+            .table {
+                tbody {
+                    tr {
+                        td {
+                            .form-group {
+                                .form-control {
+                                    padding: 3px 5px;
+                                }
+                                textarea {
+                                    height: 160px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+            }
+        }
+        .privacy {
+            margin-top: 30px;
+            h3 {
+                font-size: 15px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+            > div {
+                width: 100%;
+                color: #333;
+                padding: 30px 10px;
+                height: 150px;
+                border: 1px solid #ccc;
+                overflow-y: scroll;
+                background-color: #efefef;
+                /*h3 {
+                    font-size: 15px;
+                    color: #333;
+                    margin-bottom: 20px;
+                }*/
+                .privacy-content {
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 18px;
+                }
+            }
+            label {
+                margin-top: 20px;
+                font-size: 13px;
+                color: #333;
+                font-weight: 400;
+                input {
+                    margin-right: 5px;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+        }
+    }
+}
+
+//faq-list
+.faq-list {
+    .section-content {
+        .search-area {
+            .search-guide {
+                padding: 25px 15px;
+                border: 4px solid #646464;
+                strong {
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #333;
+                    display: block;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 18px;
+                    word-break: keep-all;
+                }
+            }
+            .search-form {
+                margin: 20px 0;
+                padding: 0;
+                background: none;
+                .form-group {
+                    padding-left: 0;
+                    .default-search {
+                        background-color: #646464;
+                    }
+                }
+            }
+        }
+        .tab-menu {
+            text-align: center;
+            > ul {
+                display: inline-block;
+                width: 100%;
+                overflow: hidden;
+                > li {
+                    float: left;
+                    width: 33.33%;
+                    > a {
+                        font-size: 14px;
+                        color: #999;
+                        font-weight: 400;
+                        line-height: 50px;
+                        display: block;
+                        border: 1px solid #d8d8d8;
+                        border-bottom: 0;
+                        border-left: 0;
+                        background-color: #fbfbfd;
+                    }
+                    &:nth-of-type(3) ~ li {
+                        > a {
+                            border-bottom: 1px solid #d8d8d8;
+                        }
+                    }
+                    &:nth-of-type(3n + 1) {
+                        > a {
+                            border-left: 1px solid #d8d8d8;
+                        }
+                    }
+                    &.active {
+                        a {
+                            color: #fff;
+                            border-color: #4a90e2;
+                            background-color: #4a90e2;
+                        }
+                    }
+                }
+            }
+        }
+        .faq-board {
+            margin-top: 30px;
+        }
+        .paging {
+            margin-top: 30px;
+        }
+    }
+}
+
+//request-list
+.request-list {
+    .section-content {
+        .search-form {
+            .form-group {
+                padding-left: 0;
+            }
+        }
+        .default-board {
+            margin-top: 30px;
+            ul {
+                li {
+                    a {
+                        dl {
+                            dd {
+                                .success {
+                                    display: inline-block;
+                                    font-weight: 300;
+                                    padding: 0 10px;
+                                    color: #fff;
+                                    background-color: #ccc;
+                                }
+                                .waiting {
+                                    display: inline-block;
+                                    padding: 0 10px;
+                                    font-weight: 300;
+                                    color: #333;
+                                    border: 1px solid #ccc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 25px;
+        }
+        .paging {
+            margin-top: 25px;
+        }
+    }
+}
+
+//대리점
+.agency {
+    .section-content {
+        figure {
+            border: 1px solid #d6d6d6;
+            .img-fluid {
+                width: 100%;
+            }
+        }
+        .table-responsive {
+            margin-top: 30px;
+            .table {
+                thead {
+                    tr {
+                        th {
+                            
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// 비밀번호 확인
+.pw-confirm {
+    .section-header {
+        p {
+            font-size: 13px;
+            color: #2b2b2b;
+            line-height: 18px;
+            margin-top: 20px;
+            font-weight: 300;
+        }
+    }
+    .section-content {
+        .form-group {
+            width: 100%;
+            .form-control {
+                width: 100%;
+                height: 55px;
+                border: 1px solid #dfdfdf;
+            }
+            .btn-lg {
+                height: 55px;
+                font-size: 13px;
+                color: #fff;
+                width: 100%;
+                margin-top: 20px;
+                line-height: 55px;
+                background-color: #0c3c8e;
+            }
+        }
+    }
+}
+
+#details-popup {
+    .modal-dialog {
+        max-width: 700px;
+        margin-top: 120px;
+        margin-bottom: 200px;
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            background: none;
+            .modal-head {
+                overflow: hidden;
+                padding-bottom: 10px;
+                .btn-close {
+                    outline: none;
+                    border: 0;
+                    float: right;
+                    opacity: 1 !important;
+                }
+            }
+            .modal-body {
+                padding: 30px 15px;
+                background-color: #fff;
+            }
+        }
+    }
+}
