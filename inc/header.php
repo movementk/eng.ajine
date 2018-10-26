@@ -2,7 +2,7 @@
 <header id="header">
     <div class="container">
         <div class="row">
-            <div class="col-2">
+            <div class="col-3">
                 <h1 class="logo">
                     <a href="/">
                         <img src="/assets/images/logo.png" class="default-img" alt="logo">
@@ -10,17 +10,17 @@
                     </a>
                 </h1>
             </div>
-            <div class="col-8">
+            <div class="col-7">
                 <nav id="gnb">
                     <ul>
                         <li>
-                            <a href="/introduction/introduce.php">Company Information</a>
+                            <a href="/introduction/introduce.php">기업정보</a>
                             <div class="company-info">
                                 <div class="depth-2">
                                     <div class="intro">
                                         <h2>
-                                            <small>AXT COMPANY</small>
-                                            Company Information
+                                            <small>AXT PRODUCT</small>
+                                            기업정보
                                         </h2>
                                         <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
                                     </div>
@@ -28,31 +28,31 @@
                                         <ul>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/introduction/introduce.php">About Us</a></h3>
+                                                    <h3><a href="/introduction/introduce.php">회사소개</a></h3>
                                                 </div>
                                                 <div>
-                                                    <h3><a href="/introduction/news_list.php">AJIN News (Announcements)</a></h3>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <h3><a href="/introduction/history.php">History</a></h3>
-                                                </div>
-                                                <div>
-                                                    <h3><a href="/introduction/location.php">Way to come</a></h3>
+                                                    <h3><a href="/introduction/news_list.php">아진소식</a></h3>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/introduction/vision.php">Vision</a></h3>
+                                                    <h3><a href="/introduction/history.php">연혁</a></h3>
                                                 </div>
                                                 <div>
-                                                    <h3><a href="/introduction/ci.php">About CI</a></h3>
+                                                    <h3><a href="/introduction/location.php">오시는 길</a></h3>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/introduction/group.php">Organization chart</a></h3>
+                                                    <h3><a href="/introduction/vision.php">비전</a></h3>
+                                                </div>
+                                                <div>
+                                                    <h3><a href="/introduction/ci.php">CI소개</a></h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <h3><a href="/introduction/group.php">조직도</a></h3>
                                                 </div>
                                             </li>
                                         </ul>
@@ -61,12 +61,12 @@
                             </div>
                         </li>
                         <li>
-                            <a href="/investment/finance_information.php">INVESTMENT</a>
+                            <a href="/investment/finance_information.php">투자정보</a>
                             <div class="investment-info">
                                 <div class="depth-2">
                                     <div class="intro">
                                         <h2>
-                                            <small>AXT INVESTMENT</small>
+                                            <small>AXT PRODUCT</small>
                                             투자정보
                                         </h2>
                                         <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
@@ -94,13 +94,13 @@
                             </div>
                         </li>
                         <li>
-                            <a href="/product/product_list01.php">About item</a>
+                            <a href="/product/product_list01.php">제품소개</a>
                             <div class="product-info">
                                 <div class="depth-2">
                                     <div class="intro">
                                         <h2>
                                             <small>AXT PRODUCT</small>
-                                            About item
+                                            제품소개
                                         </h2>
                                         <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
                                         <div class="btn-area">
@@ -181,13 +181,13 @@
                             </div>
                         </li>
                         <li>
-                            <a href="/customer/download.php">Customer Support</a>
+                            <a href="/customer/download.php">고객지원</a>
                             <div class="customer-support">
                                 <div class="depth-2">
                                     <div class="intro">
                                         <h2>
-                                            <small>AXT CUSTOMER SERVICE</small>
-                                            Customer Support
+                                            <small>AXT PRODUCT</small>
+                                            고객지원
                                         </h2>
                                         <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
                                     </div>
@@ -195,25 +195,31 @@
                                         <ul>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/customer/download.php">Downloa</a></h3>
+                                                    <h3><a href="/customer/download.php">다운로드</a></h3>
                                                 </div>
                                                 <div>
-                                                    <h3><a href="/customer/agency.php">Agency</a></h3>
+                                                    <h3><a href="/customer/agency.php">대리점</a></h3>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div>
                                                     <h3><a href="/customer/qna_list.php"><span>Q&amp;A</span></a></h3>
                                                 </div>
+                                                <div>
+                                                    <h3><a href="/customer/technical_terms.php">기술용어</a></h3>
+                                                </div>
                                             </li>
                                             <li>
                                                 <div>
                                                     <h3><a href="/customer/faq_list.php"><span>FAQ</span></a></h3>
                                                 </div>
+                                                <div>
+                                                    <h3><a href="/customer/solution01.php">솔루션</a></h3>
+                                                </div>
                                             </li>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/customer/request_list.php">Request Quotation</a></h3>
+                                                    <h3><a href="/customer/request_list.php">견적요청</a></h3>
                                                 </div>
                                             </li>
                                         </ul>
@@ -222,13 +228,13 @@
                             </div>
                         </li>
                         <li>
-                            <a href="/careers/careers_info.php">Careers</a>
+                            <a href="#">채용정보</a>
                             <div class="recruitment-info">
                                 <div class="depth-2">
                                     <div class="intro">
                                         <h2>
-                                            <small>AXT CAREERS</small>
-                                            Careers
+                                            <small>AXT PRODUCT</small>
+                                            채용정보
                                         </h2>
                                         <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
                                     </div>
@@ -236,7 +242,7 @@
                                         <ul>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/careers/careers_info.php">Careers</a></h3>
+                                                    <h3><a href="/careers/careers_info.php">채용정보</a></h3>
                                                 </div>
                                             </li>
                                         </ul>
@@ -249,7 +255,7 @@
             </div>
             <div class="col-2">
                 <ul class="language">
-                    <li><a href="/">KOR</a></li>
+                    <li><a href="#">ENG</a></li>
                     <li><a href="#">CHN</a></li>
                 </ul>
                 <div class="global-search">

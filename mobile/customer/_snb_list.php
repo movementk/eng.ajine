@@ -9,6 +9,8 @@
             <a class="dropdown-item" href="/mobile/customer/faq_list.php">FAQ</a>
             <a class="dropdown-item" href="/mobile/customer/request_list.php">견적요청</a>
             <a class="dropdown-item" href="/mobile/customer/agency.php">대리점</a>
+            <a class="dropdown-item" href="/mobile/customer/technical_terms.php">기술용어</a>
+            <a class="dropdown-item" href="/mobile/customer/solution01.php">솔루션</a>
         </div>
     </div>
 </nav>

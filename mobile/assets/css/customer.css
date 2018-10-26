@@ -428,4 +428,122 @@ a {
       padding: 30px 15px;
       background-color: #fff; }
 
+.technical-terms .section-content > ul {
+  border-top: 2px solid #164492; }
+  .technical-terms .section-content > ul > li {
+    padding: 20px 10px;
+    border-bottom: 1px solid #ddd; }
+    .technical-terms .section-content > ul > li h4 {
+      font-size: 15px;
+      color: #333;
+      font-family: 'Maven Pro', sans-serif;
+      letter-spacing: 1px; }
+    .technical-terms .section-content > ul > li p {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #999;
+      word-break: keep-all;
+      font-family: 'Maven Pro', sans-serif;
+      font-weight: 400;
+      line-height: 22px; }
+
+.spelling-tab {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+  .spelling-tab .accordion .card {
+    border: 0; }
+    .spelling-tab .accordion .card .card-header {
+      padding: 0;
+      border: 0; }
+      .spelling-tab .accordion .card .card-header .btn-link {
+        position: relative;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 0 10px;
+        line-height: 40px;
+        text-align: left;
+        color: #fff;
+        text-decoration: none;
+        background-color: #0c3c8e; }
+        .spelling-tab .accordion .card .card-header .btn-link.collapsed:after {
+          content: "\E804"; }
+        .spelling-tab .accordion .card .card-header .btn-link:after {
+          float: right;
+          content: "\E805";
+          font-family: "fontello"; }
+    .spelling-tab .accordion .card .card-body {
+      padding: 20px 14px 15px;
+      background-color: #f5f5f5; }
+      .spelling-tab .accordion .card .card-body ul {
+        font-size: 0; }
+        .spelling-tab .accordion .card .card-body ul li {
+          display: inline-block;
+          margin: 0 3px 5px; }
+          .spelling-tab .accordion .card .card-body ul li > a {
+            width: 35px;
+            height: 35px;
+            display: block;
+            text-align: center;
+            line-height: 33px;
+            font-size: 13px;
+            color: #666;
+            background-color: #fff;
+            border: 1px solid #e3e3e3; }
+          .spelling-tab .accordion .card .card-body ul li:last-child > a {
+            width: 76px; }
+
+.position-space {
+  padding-bottom: 40px; }
+
+.solution .section-content .solution-tabs ul {
+  overflow: hidden; }
+  .solution .section-content .solution-tabs ul li {
+    float: left;
+    width: 32%;
+    margin-right: 2%; }
+    .solution .section-content .solution-tabs ul li:nth-of-type(3n + 3) {
+      margin-right: 0; }
+    .solution .section-content .solution-tabs ul li:nth-of-type(3) ~ li {
+      margin-top: 2%; }
+    .solution .section-content .solution-tabs ul li a {
+      display: block;
+      width: 100%;
+      font-size: 12px;
+      color: #333;
+      line-height: 40px;
+      border-radius: 30px;
+      text-align: center;
+      background-color: #e5e5e5; }
+    .solution .section-content .solution-tabs ul li.active a {
+      color: #fff;
+      background-color: #4a90e2; }
+.solution .section-content .solution-list {
+  margin-top: 35px; }
+  .solution .section-content .solution-list > li {
+    border: 1px solid #dfdfdf; }
+    .solution .section-content .solution-list > li ~ li {
+      margin-top: 10px; }
+    .solution .section-content .solution-list > li figure .img-fluid {
+      display: block;
+      margin: 0 auto; }
+    .solution .section-content .solution-list > li figure figcaption {
+      text-align: center;
+      padding: 15px 30px 30px; }
+      .solution .section-content .solution-list > li figure figcaption h4 {
+        font-size: 16px;
+        color: #4a90e2;
+        font-weight: bold;
+        letter-spacing: .5px;
+        font-family: 'Maven Pro', sans-serif;
+        margin-bottom: 20px; }
+      .solution .section-content .solution-list > li figure figcaption p {
+        font-size: 12px;
+        color: #666;
+        font-weight: 300;
+        line-height: 18px;
+        word-break: keep-all; }
+
 /*# sourceMappingURL=customer.css.map */

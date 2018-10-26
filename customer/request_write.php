@@ -27,6 +27,8 @@
                 <li><a href="/customer/faq_list.php">FAQ</a></li>
                 <li class="active"><a href="/customer/request_list.php">견적요청</a></li>
                 <li><a href="/customer/agency.php">대리점</a></li>
+                <li><a href="/customer/technical_terms.php">기술용어</a></li>
+                <li><a href="/customer/solution01.php">솔루션</a></li>
             </ul>
         </div>
     </nav>

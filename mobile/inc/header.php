@@ -92,6 +92,8 @@
                     <li><a href="/mobile/customer/faq_list.php">FAQ</a></li>
                     <li><a href="/mobile/customer/request_list.php">견적요청</a></li>
                     <li><a href="/mobile/customer/agency.php">대리점</a></li>
+                    <li><a href="/mobile/customer/technical_terms.php">기술용어</a></li>
+                    <li><a href="/mobile/customer/solution01.php">솔루션</a></li>
                 </ul>
             </li>
             <li>
