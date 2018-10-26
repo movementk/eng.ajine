@@ -21,22 +21,22 @@
         <div class="container">
             <section class="location">
                 <div class="section-header">
-                    <h3 class="section-title">오시는길</h3>
+                    <h3 class="section-title">Way to come</h3>
                 </div>
                 <div class="section-content">
                     <div class="tab-menu">
                         <ul>
-                            <li class="active"><a href="#">본사(남부사무소)</a></li>
-                            <li><a href="#">경인사무소</a></li>
-                            <li><a href="#">중부사무소</a></li>
-                            <li><a href="#">중국사무소</a></li>
+                            <li class="active"><a href="#">Head office</a></li>
+                            <li><a href="#">Gyeongin Office</a></li>
+                            <li><a href="#">Central Office</a></li>
+                            <li><a href="#">Chinese office</a></li>
                         </ul>
                     </div>
                     <article class="information">
-                         <h4>본사(남부사무소)</h4>
+                         <h4>Head office (southern office)</h4>
                          <p>
-                             대구 성서 첨단 산업단지에 위치한 본사는 2100여평의 대지위에 사무동, 생산동 연구소를 갖춘 본사 사옥과 부속 기숙사동 등 2동의 건물로서 완벽한 연구개발 및 생산 시설을 갖춤으로서 R&amp;D를 통한국부창조의 핵심공간입니다. 본사에서는 기술 연구소를 중심으로 메카트로닉스 핵심 부품을 국산화 하기 위한 연구개발이 365일 끊이지 않는 노력과 열정으로 이루어지며 또한 품질 경영의 토대위에 품질과 생산성 향상을 위한 노력들이 전략 기획팀을 중심으로 이루어지며 전략경영을 위한 마케팅, 경영지원, Global Marketing 서비스를 제공하고 있습니다.<br>
-                             국부창조의 핵심공간입니다. 본사에서는 기술 연구소를 중심으로 메카트로닉스 핵심 부품을 국산화 하기 위한 연구개발이 365일 끊이지 않는 노력과 열정으로 이루어지며 또한 품질 경영의 토대위에 품질과 생산성 향상을 위한 노력들이 전략 기획팀을 중심으로 이루어지며 전략경영을 위한 마케팅, 경영지원, Global Marketing 서비스를 제공하고 있습니다.
+                             Headquarter located in Seongseo Industrial Complex, Daegu, is on a building site of about 6300sqm, which has 2 buildings of dormitory and headquarter with office, production place and research center. Our head office is a core place of creating national wealth through R&amp;D by equipping with perfect R&amp;D and production facilities.<br>
+                             In our head office, R&amp;D for localization of mechatronics main parts is performed with continuous efforts and passion everyday centering on our R&amp;D center. Also, efforts for improving quality and productivity are done centering on strategic planning team based on quality management as well as we provide with marketing, business support and global marketing service.
                          </p>
                          <div class="table-wrap">
                              <table class="table">

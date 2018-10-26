@@ -21,13 +21,13 @@
         <div class="container">
             <section class="ci">
                 <div class="section-header">
-                    <h3 class="section-title">CI소개</h3>
+                    <h3 class="section-title">About CI</h3>
                 </div>
                 <div class="section-content">
                     <article class="symbol">
                         <div class="article-header">
-                            <h4>심벌마크</h4>
-                            <p>아진엑스텍의 심벌마크는 AJINEXTEK의 영문 첫글자 A.X.T 의 조합을 바탕으로 간결하면서 미래지향적으로 디자인 하였습니다.또한 반도체 관련기업이라는 특징을 표현하기 위해 반도체칩의 회로도를 역화하여 적용하였습니다. 끊어지지 않고 연결된 문자는 기업의 영속성과 발전을 상징하며심벌마크의 청색(AXT Blue) 은 아진엑스텍의 첨단기술력과 무한한 가능성을 의미합니다.</p>
+                            <h4>Symbol mark</h4>
+                            <p>AJINEXTEK's symbol mark is designed with a simple and futuristic design based on AJINEXTEK's initials, A.X.T. In order to express the characteristic of a semiconductor-related company, we applied the circuit diagram of the semiconductor chip backwards. An unbroken letter symbolizes the permanence and development of our company. The blue symbol (AXT Blue) signifies the high technology and unlimited possibilities of Ajinextek.</p>
                         </div>
                         <div class="article-content">
                             <div class="drawing">
@@ -35,58 +35,57 @@
                                     <img src="/mobile/assets/images/introduction/img_symbol_mark.png" alt="">
                                 </figure>
                                 <p class="attention">
-                                    로고타입은 절대로 임의로 타이핑하여 사용,<br>
-                                    색상 임의 조절, 로고 일부만  사용하는 등의<br>
-                                    변형을 할 수 없습니다.
+                                    Logo type can never be arbitrarily typed, adjusted to any color, transformed using only a part of the logo and so on.
                                 </p>
                                 <div class="btn-area">
-                                    <a href="#" class="btn btn-down btn-blue" role="button">CI 다운로드 PDF</a>
-                                    <a href="#" class="btn btn-down btn-gray" role="button">CI 다운로드 AI</a>
+                                    <a href="#" class="btn btn-down btn-blue" role="button">CI Download PDF</a>
+                                    <a href="#" class="btn btn-down btn-gray" role="button">CI Download AI</a>
                                 </div>
                             </div>
                         </div>
                     </article>
                     <article class="symbol-color">
                         <div class="article-header">
-                            <h4>심벌마크의 색상</h4>
-                            <p>일관된 기업이지 창출을 위하여 아진엑스텍 심벌마크의 생삭은 PANTONE 279 로 모든 매체에 통일감 있게 표현되어야 합니다.<br>심벌마크는 그룹 대표생삭인 블루(별색 : PANTONE 279, 4  원색 : C70% +M35%)로 표현되는것이 이상적이며, 임의의 컬러로 변경하여 사용할수 없습니다.</p>
+                            <h4>The color of the symbol mark</h4>
+                            <p>To create a consistent company image, the colors of the AJINEXTEK‘S symbol mark must be unified in all media with PANTONE 279.
+                            The symbol mark is ideally represented by the group representative color blue (spot color: PANTONE279, primary color: C70% + M35%), and cannot be changed to any color.</p>
                         </div>
                         <div class="article-content">
                             <ul class="row">
                                 <li class="col-6">
                                     <figure>
                                         <img src="/mobile/assets/images/introduction/img_symbol_color01.jpg" class="img-fluid" alt="">
-                                        <figcaption>블루</figcaption>
+                                        <figcaption>Blue</figcaption>
                                     </figure>
                                 </li>
                                 <li class="col-6">
                                     <figure>
                                         <img src="/mobile/assets/images/introduction/img_symbol_color02.jpg" class="img-fluid" alt="">
-                                        <figcaption>블루바탕에 화이트</figcaption>
+                                        <figcaption>Blue background white</figcaption>
                                     </figure>
                                 </li>
                                 <li class="col-6">
                                     <figure>
                                         <img src="/mobile/assets/images/introduction/img_symbol_color03.jpg" class="img-fluid" alt="">
-                                        <figcaption>실버바탕에 화이트</figcaption>
+                                        <figcaption>Silver background white</figcaption>
                                     </figure>
                                 </li>
                                 <li class="col-6">
                                     <figure>
                                         <img src="/mobile/assets/images/introduction/img_symbol_color04.jpg" class="img-fluid" alt="">
-                                        <figcaption>실버</figcaption>
+                                        <figcaption>Silver</figcaption>
                                     </figure>
                                 </li>
                                 <li class="col-6">
                                     <figure>
                                         <img src="/mobile/assets/images/introduction/img_symbol_color05.jpg" class="img-fluid" alt="">
-                                        <figcaption>블랙</figcaption>
+                                        <figcaption>Black</figcaption>
                                     </figure>
                                 </li>
                                 <li class="col-6">
                                     <figure>
                                         <img src="/mobile/assets/images/introduction/img_symbol_color06.jpg" class="img-fluid" alt="">
-                                        <figcaption>블랙바탕에 화이트</figcaption>
+                                        <figcaption>Black background white</figcaption>
                                     </figure>
                                 </li>
                             </ul>
@@ -94,8 +93,9 @@
                     </article>
                     <article class="logo-type">
                         <div class="article-header">
-                            <h4>로고타잎</h4>
-                            <p>로고타입은 그 조형이 추구하는 이미지를 정확하게 전달하고 시각적 인식을 높이기 위해 독립된 공간을 확보하는 것이 중요합니다.따라서 표현되는 공간의 배경이나 주변의 다른 시각요소들과 명확히 구분되어야 합니다. 로고타입은 기업이미지의 일관성을 위하여 공식적으로 규정된 요소이므로 확대 또는 축소하여 활용할 경우에는 반드시 재생자료편의 제판용 원고를 이용하여 사진제판에 의한 축소, 확대 방법으로 사용합니다.</p>
+                            <h4>Logo type</h4>
+                            <p>It is important to secure a separate space for the logo type to accurately convey the image that the molding pursues and to increase visual perception.Therefore, it must be clearly distinguished with the background of the expressed space or other visual elements around you.
+                            The logo type is officially provision element for the consistency of company image. Therefore, when enlarging or reducing the logo type, it is necessary to use the manuscript for the reproduction material of the recycled material to reduce or enlarge by photo plate.</p>
                         </div>
                         <div class="article-content">
                             <div class="drawing">
@@ -103,36 +103,36 @@
                                     <img src="/mobile/assets/images/introduction/img_logo_type.png" alt="">
                                 </figure>
                                 <div class="btn-area">
-                                    <a href="#" class="btn btn-down btn-blue" role="button">CI 다운로드 PDF</a>
-                                    <a href="#" class="btn btn-down btn-gray" role="button">CI 다운로드 AI</a>
+                                    <a href="#" class="btn btn-down btn-blue" role="button">CI Download PDF</a>
+                                    <a href="#" class="btn btn-down btn-gray" role="button">CI Download AI</a>
                                 </div>
                             </div>
                         </div>
                     </article>
                     <article class="signature">
                         <div class="article-header">
-                            <h4>시그니춰-국영문</h4>
+                            <h4>Signature - Korean/English</h4>
                             <p>
-                                시그니춰는 그 조형이 추구하는 이미지를 정확하게 전달하고 시각적 인식을 높이기 위해 독립된 공간을 확보하는 것이 중요합니다.<br>
-                                따라서 표현되는 공간의 배경이나 주변의 다른 시각요소들과 명확히 구분되어야 합니다.
+                                For signature, it is important to ensure independent space to accurately convey image that the form pursues and to increase visual perception.
+                                Therefore, it must be clearly distinguished from the background of the space being represented or other visual elements around it.
                             </p>
                         </div>
                         <div class="article-content">
                             <div class="drawing">
-                                <h5>국영문 시그니춰</h5>
+                                <h5>Signature - Korean/English</h5>
                                 <figure class="kor">
                                     <img src="/mobile/assets/images/introduction/logo_signature_kor.png" alt="">
                                 </figure>
                             </div>
                             <div class="drawing">
-                                <h5>영문 시그니춰</h5>
+                                <h5>Signature - English</h5>
                                 <figure class="eng">
                                     <img src="/mobile/assets/images/introduction/logo_signature_eng.png" alt="">
                                 </figure>
                             </div>
                             <div class="btn-area">
-                                <a href="#" class="btn btn-down btn-blue" role="button">CI 다운로드 PDF</a>
-                                <a href="#" class="btn btn-down btn-gray" role="button">CI 다운로드 AI</a>
+                                <a href="#" class="btn btn-down btn-blue" role="button">CI Download PDF</a>
+                                <a href="#" class="btn btn-down btn-gray" role="button">CI Download AI</a>
                             </div>
                         </div>
                     </article>

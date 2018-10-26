@@ -21,7 +21,7 @@
         <div class="container">
             <section class="news-list">
                 <div class="section-header">
-                    <h3 class="section-title">아진소식</h3>
+                    <h3 class="section-title">AJIN News</h3>
                 </div>
                 <div class="section-content">
                     <div class="search-form">

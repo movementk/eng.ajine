@@ -21,10 +21,9 @@
         <div class="container">
             <section class="history">
                 <div class="section-header">
-                    <h3 class="section-title">연혁</h3>
+                    <h3 class="section-title">History</h3>
                     <p class="summary">
-                        창의적 개발에 대한 끊임없는 도전을 추구하며<br>
-                        모든 사람이 행복한 세상을 만들기 위하여 <b>노력하는 기업!</b>
+                        A company that pursues the constant challenge of creative development and strives to create a happy world for everyone!
                     </p>
                 </div>
                 <div class="section-content">

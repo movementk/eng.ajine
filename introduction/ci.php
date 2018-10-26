@@ -132,7 +132,7 @@
                         </div>
                     </article>
                     <article class="signature">
-                        <h4 class="article-title">Signature - Koreanglish</h4>
+                        <h4 class="article-title">Signature - Korean/English</h4>
                         <p class="summary">
                             For signature, it is important to ensure independent space to accurately convey image that the form pursues and to increase visual perception.<br>
                             Therefore, it must be clearly distinguished from the background of the space being represented or other visual elements around it.
@@ -141,7 +141,7 @@
                             <ul class="row">
                                 <li class="col-6">
                                     <div class="kor">
-                                        <h6>Signature - Koreanglish</h6>
+                                        <h6>Signature - Korean/English</h6>
                                         <figure>
                                             <img src="/assets/images/introduction/logo_signature_kor.png" alt="">
                                         </figure>

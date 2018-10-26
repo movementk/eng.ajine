@@ -15,25 +15,25 @@
                         <source src="/mobile/assets/images/video/26585675-preview.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
+                    <p>A better future, AJINEXTEK is with you</p>
+                    <h2>TOGETHER,<br>FOREVER!</h2>
+                </li>
+                <li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
+                    <p>The world where people and machines coexist made by AJINEXTEC</p>
+                    <h2>BEYOND,<br>PERFECT!</h2>
+                </li>
+                <li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
+                    <p>Fourth industrial revolution, we will make together.</p>
+                    <h2>For the 4th<br> Industrial Revolution</h2>
+                </li>
+                <!--<li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
                     <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
                     <h2>TOGETHER,<br>FOREVER!</h2>
                 </li>
                 <li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
                     <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
                     <h2>TOGETHER,<br>FOREVER!</h2>
-                </li>
-                <li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
-                    <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
-                    <h2>TOGETHER,<br>FOREVER!</h2>
-                </li>
-                <li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
-                    <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
-                    <h2>TOGETHER,<br>FOREVER!</h2>
-                </li>
-                <li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
-                    <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
-                    <h2>TOGETHER,<br>FOREVER!</h2>
-                </li>
+                </li>-->
             </ul>
         </div>
         <!-- quick menu -->
@@ -43,7 +43,7 @@
                     <a href="/mobile/introduction/introduce.php">
                         <figure>
                             <img src="/mobile/assets/images/main/icon_quick01.jpg" alt="">
-                            <figcaption>회사소개</figcaption>
+                            <figcaption>About Us</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -51,7 +51,7 @@
                     <a href="/mobile/customs/request_list.php">
                         <figure>
                             <img src="/mobile/assets/images/main/icon_quick02.jpg" alt="">
-                            <figcaption>견적상담</figcaption>
+                            <figcaption>Request Quotation</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -59,7 +59,7 @@
                     <a href="/mobile/customs/download.php">
                         <figure>
                             <img src="/mobile/assets/images/main/icon_quick03.jpg" alt="">
-                            <figcaption>다운로드</figcaption>
+                            <figcaption>Download</figcaption>
                         </figure>
                     </a>
                 </li>

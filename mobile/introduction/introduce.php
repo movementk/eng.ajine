@@ -21,7 +21,7 @@
         <section class="introduce">
             <div class="container">
                 <div class="section-header">
-                    <h3 class="section-title">회사소개</h3>
+                    <h3 class="section-title">About Us</h3>
                 </div>
             </div>
             <div class="section-content">
@@ -29,9 +29,10 @@
                     <div class="article-header">
                         <div class="container">
                             <h4>TECHNOLOGY FOR<br><i>FUTURE</i></h4>
-                            <b>㈜아진엑스텍은 1995년 창업이래, 첨단 산업자동화 분야에 필요한 제어기 국산화를 통해 세계시장 진출을 위해 전 임직원이 역량을 결집시켜 왔습니다.</b>
+                            <b>AJINEXTECH Co., Ltd. has been concentrating its capabilities through all employees in order to advance into the world market by localizing the controller required for advanced industrial automation field since its establishment in 1995</b>
                             <p>
-                                그 결과, 국내에서는 유일하게 모터 제어 전용 VLSI 칩 (CAMC-계열)을 개발, 판매함으로써 Mechatronics 분야 부품소재 전문기업으로 자리 매김하였고,<br> 이를 바탕으로 반도체 제조 공정, LED,LCD Display 공정, PCB/SMT 공정, Mobile, 자동차 공정에 필요한 다양한 장비의 제어기를 국산화 하였습니다.
+                                As a result, the company developed and sold the motor control only VLSI chip (CAMC-series) solely in Korea, and positioned as a specialty company of parts and materials in Mechatronics.<br>
+                                Based on this, we have localized various controllers for semiconductor manufacturing process, LED, LCDDisplay process, PCB / SMT process, mobile and automobile process.
                             </p>
                         </div>
                     </div>
@@ -41,7 +42,7 @@
                                 <img src="/mobile/assets/images/introduction/logo.png" alt="">
                             </figure>
                             <b>
-                                ㈜아진엑스텍은 "Together, Forever"의 <br>시대정신 아래 "Beyond Mechatronics, <br>Toward Robotopia"의 사명을 실현하여 <br>4차 산업혁명시대와 함께할 것입니다.
+                                Ajinextec Co., Ltd. will realize the mission of "Beyond Mechatronics, Toward Robotopia" under the spirit of "Together, Forever" and will be with the era of the fourth industrial revolution.
                             </b>
                         </div>
                     </div>
@@ -50,9 +51,9 @@
                     <div class="container">
                         <div class="article-header">
                             <h4>INNOVATION</h4>
-                            <b>모션제어기기 산업의 <i>Leader,</i><br>아진엑스텍 입니다.</b>
+                            <b>AJINEXTECH, the <i>Leader,</i> of motion control device industry.</b>
                             <p>
-                                새로운 중기 Roadmap의 조기 구체화를 통해 기존 사업 분야인 전자부품시장, Middle end 시장, PC 시장, Motion control을 통한 장비 제어 시장  등의 기술 분야에서 기계모듈시장, High-end 시장, PLC 시장, Robot control를 통한 smart factory 구현 및 EV 제어 등 신규 사업 분야에 진출하였습니다.
+                                Through the early realization of the new medium-term roadmap, we entered the new business field such as performing the smart factory through robot control, EV control and so on as well as our previous business, which is the technology field of electronics parts, middle-end, PC, equipment control through motion control, machine module, high-end, and PLC.
                             </p>
                         </div>
                         <div class="article-content">
@@ -62,8 +63,8 @@
                                         <img src="/mobile/assets/images/introduction/img_introduce01.jpg" alt="">
                                         <figcaption>
                                             <dl>
-                                                <dt>사람의 가치를 귀하게 여기는 <b>기술개발</b></dt>
-                                                <dd>고객을 위하여 가치 있는 제품을 만드는 고객지향 정신</dd>
+                                                <dt>Technology development that values people's worth</dt>
+                                                <dd>A customer-oriented spirit that creates valuable products for customers.</dd>
                                             </dl>
                                         </figcaption>
                                     </figure>
@@ -73,8 +74,8 @@
                                         <img src="/mobile/assets/images/introduction/img_introduce02.jpg" alt="">
                                         <figcaption>
                                             <dl>
-                                                <dt>혁신으로 미래를 여는 <b>사회변혁</b></dt>
-                                                <dd>혁신적인 자세로 미래를  열어가는 미래 기업</dd>
+                                                <dt>Transforming Society to Open the Future with Innovation,</dt>
+                                                <dd>that opens the future with innovative attitude.</dd>
                                             </dl>
                                         </figcaption>
                                     </figure>
@@ -84,8 +85,8 @@
                                         <img src="/mobile/assets/images/introduction/img_introduce03.jpg" alt="">
                                         <figcaption>
                                             <dl>
-                                                <dt>뛰어난 기술력으로 <b>세계화</b></dt>
-                                                <dd>모션제어 산업의 leader가 되어 범세계적 가치 창출</dd>
+                                                <dt>Globalization with outstanding technology,</dt>
+                                                <dd>As a leader of motion control industry, we create global value.</dd>
                                             </dl>
                                         </figcaption>
                                     </figure>

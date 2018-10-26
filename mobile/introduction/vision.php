@@ -20,7 +20,7 @@
     <main id="content" class="introduction">
         <section class="vision">
             <div class="section-header">
-                <h3 class="section-title">비젼</h3>
+                <h3 class="section-title">Vision</h3>
             </div>
             <div class="section-content">
                 <article class="global-provider">
@@ -36,13 +36,13 @@
                                 <li>
                                     <figure>
                                         <img src="/mobile/assets/images/introduction/img_vision01.png" alt="">
-                                        <figcaption>Mechatronics<br>부품소재</figcaption>
+                                        <figcaption>Mechatronics<br>Part and material</figcaption>
                                     </figure>
                                 </li>
                                 <li>
                                     <figure>
                                         <img src="/mobile/assets/images/introduction/img_vision02.png" alt="">
-                                        <figcaption>Robotics<br>부품소재</figcaption>
+                                        <figcaption>Robotics<br>Part and material</figcaption>
                                     </figure>
                                 </li>
                                 <li>
@@ -53,8 +53,8 @@
                                 </li>
                             </ul>
                             <div class="summary">
-                                <h6>Mecha<span>Robotronics</span> 부품소재 <span>초일류</span> 기업</h6>
-                                <p>자동화 분야의 Motion Control Korea <b>No.1</b></p>
+                                <h6>Cutting edge company in Mecha <span>Robotronics</span> Parts Materials</h6>
+                                <p><b>No.1</b> in Korea for Motion Control Automation</p>
                             </div>
                         </div>
                     </div>

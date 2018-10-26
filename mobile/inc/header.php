@@ -17,7 +17,7 @@
                 <div class="align-box">
                     <form action="#">
                         <div class="form-group">
-                            <input type="text" id="global-search" class="form-control" placeholder="검색어를 입력해주세요">
+                            <input type="text" id="global-search" class="form-control" placeholder="Please enter a search term">
                             <label for="global-search" class="sr-only">검색영역</label>
                             <button type="submit" class="btn btn-search">
                                 <i class="icon-search">
@@ -53,15 +53,15 @@
     <nav id="gnb">
         <ul>
             <li>
-                <a href="#">기업정보</a>
+                <a href="#">Company Information</a>
                 <ul>
-                    <li><a href="/mobile/introduction/introduce.php">회사소개</a></li>
-                    <li><a href="/mobile/introduction/history.php">연혁</a></li>
-                    <li><a href="/mobile/introduction/vision.php">비전</a></li>
-                    <li><a href="/mobile/introduction/group.php">조직도</a></li>
-                    <li><a href="/mobile/introduction/news_list.php">아진소식</a></li>
-                    <li><a href="/mobile/introduction/location.php">오시는 길</a></li>
-                    <li><a href="/mobile/introduction/ci.php">CI소개</a></li>
+                    <li><a href="/mobile/introduction/introduce.php">About Us</a></li>
+                    <li><a href="/mobile/introduction/history.php">History</a></li>
+                    <li><a href="/mobile/introduction/vision.php">Vision</a></li>
+                    <li><a href="/mobile/introduction/group.php">Organization chart</a></li>
+                    <li><a href="/mobile/introduction/news_list.php">AJIN News (Announcements)</a></li>
+                    <li><a href="/mobile/introduction/location.php">Way to come</a></li>
+                    <li><a href="/mobile/introduction/ci.php">About CI</a></li>
                 </ul>
             </li>
             <li>
@@ -73,7 +73,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">제품</a>
+                <a href="#">About item</a>
                 <ul>
                     <li><a href="/mobile/product/product_list01.php">MOTION CHIP</a></li>
                     <li><a href="/mobile/product/product_list01.php">BOARD(Module)</a></li>
@@ -85,21 +85,21 @@
                 </ul>
             </li>
             <li>
-                <a href="#">고객지원</a>
+                <a href="#">Customer Support</a>
                 <ul>
-                    <li><a href="/mobile/customer/download.php">다운로드</a></li>
+                    <li><a href="/mobile/customer/download.php">Download</a></li>
                     <li><a href="/mobile/customer/qna_list.php">Q&amp;A</a></li>
                     <li><a href="/mobile/customer/faq_list.php">FAQ</a></li>
-                    <li><a href="/mobile/customer/request_list.php">견적요청</a></li>
-                    <li><a href="/mobile/customer/agency.php">대리점</a></li>
+                    <li><a href="/mobile/customer/request_list.php">Request Quotation</a></li>
+                    <li><a href="/mobile/customer/agency.php">Agency</a></li>
                     <li><a href="/mobile/customer/technical_terms.php">기술용어</a></li>
                     <li><a href="/mobile/customer/solution01.php">솔루션</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">채용정보</a>
+                <a href="#">Careers</a>
                 <ul>
-                    <li><a href="/mobile/careers/careers_info.php">채용정보</a></li>
+                    <li><a href="/mobile/careers/careers_info.php">Careers</a></li>
                 </ul>
             </li>
         </ul>
