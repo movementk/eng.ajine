@@ -10,7 +10,7 @@
     <div class="page-header">
         <div class="container">
             <h2>PRODUCT</h2>
-            <p>미래를 여는 기업 아진엑스텍입니다.</p>
+            <p>미래를 여는 기업 ajinextek입니다.</p>
         </div>
     </div>
 

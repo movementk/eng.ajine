@@ -12,7 +12,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>COMPANY</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                 <li class="active"><a href="/introduction/vision.php">Vision</a></li>
                 <li><a href="/introduction/group.php">Organization chart</a></li>
                 <li><a href="/introduction/news_list.php">AJIN News</a></li>
-                <li><a href="/introduction/location.php">Way to come</a></li>
+                <li><a href="/introduction/location.php">Directions</a></li>
                 <li><a href="/introduction/ci.php">About CI</a></li>
             </ul>
         </div>

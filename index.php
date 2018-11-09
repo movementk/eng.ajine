@@ -47,7 +47,7 @@
                     <div class="container">
                         <div class="slogan">
                             <div class="v-align">
-                                <small>더 나은 미래, 아진엑스텍이 함께합니다</small>
+                                <small>더 나은 미래, ajinextek이 함께합니다</small>
                                 <h2>TOGETHER,FOREVER!</h2>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                     <div class="container">
                         <div class="slogan">
                             <div class="v-align">
-                                <small>더 나은 미래, 아진엑스텍이 함께합니다</small>
+                                <small>더 나은 미래, ajinextek이 함께합니다</small>
                                 <h2>TOGETHER,FOREVER!</h2>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                                 <small>모터 제어 전용 칩</small>
                                 <hr>
                                 <p>
-                                    CAMC Series는 아진엑스텍의 순수 기술력으로 <br>
+                                    CAMC Series는 ajinextek의 순수 기술력으로 <br>
                                     제작된 국내 유일의 국산 모션 제어 칩
                                 </p>
                                 <div class="btn-area">

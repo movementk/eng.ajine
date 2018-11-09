@@ -12,7 +12,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>CUSTOMER SERVICE</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -22,13 +22,13 @@
     <nav id="lnb">
         <div class="container">
             <ul class="lnb-list">
-                <li><a href="/customer/download.php">다운로드</a></li>
+                <li><a href="/customer/download.php">Download</a></li>
                 <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
                 <li><a href="/customer/faq_list.php">FAQ</a></li>
-                <li><a href="/customer/request_list.php">견적요청</a></li>
-                <li class="active"><a href="/customer/agency.php">대리점</a></li>
-                <li><a href="/customer/technical_terms.php">기술용어</a></li>
-                <li><a href="/customer/solution01.php">솔루션</a></li>
+                <li><a href="/customer/request_list.php">Request Quotation</a></li>
+                <li class="active"><a href="/customer/agency.php">Agency</a></li>
+                <li><a href="/customer/technical_terms.php">Technical Terms</a></li>
+                <li><a href="/customer/solution01.php">Solution</a></li>
             </ul>
         </div>
     </nav>
@@ -38,7 +38,7 @@
         <div class="container">
             <section class="agency">
                 <div class="section-header">
-                    <h3>대리점</h3>
+                    <h3>Agency</h3>
                 </div>
                 <div class="section-content">
                 	<figure>
@@ -55,87 +55,87 @@
                 			</colgroup>
 							<thead>
 								<tr>
-									<th>업체명</th>
-									<th>대표자명</th>
-									<th>전화번호</th>
-									<th>주소</th>
-									<th>메일주소</th>
+									<th>company</th>
+									<th>president</th>
+									<th>telephone</th>
+									<th>region</th>
+									<th>Mail address</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>알엔에스</td>
-									<td>전용진</td>
+									<td>(RNS)</td>
+									<td>Yong-Jin Jeon</td>
 									<td>
 										031-479-3591
 									</td>
-									<td>의왕</td>
+									<td>Uiwang</td>
 									<td>
 										<a href="mailto:rns77@naver.com">rns77@naver.com</a>
 									</td>
 								</tr>
 								<tr>
-									<td>인더스텍</td>
-									<td>이상무</td>
+									<td>(Industek)</td>
+									<td>Sang-Mu Lee</td>
 									<td>
 										02-2083-3088
 									</td>
-									<td>광명</td>
+									<td>Gwangmyeong</td>
 									<td>
 										<a href="mailto:smlee@industek.co.kr">smlee@industek.co.kr</a>
 									</td>
 								</tr>
 								<tr>
-									<td>창공FA</td>
-									<td>김한수</td>
+									<td>(Chang gong FA)</td>
+									<td>Han-Su Kim</td>
 									<td>
 										031-695-6927
 									</td>
-									<td>수원</td>
+									<td>Suwon</td>
 									<td>
 										<a href="mailto:sky@bigsky.co.kr">sky@bigsky.co.kr</a>
 									</td>
 								</tr>
 								<tr>
-									<td>에이플러스</td>
-									<td>김성준</td>
+									<td>(A Plus)</td>
+									<td>Sung-jun Kim</td>
 									<td>
 										031-278-0552
 									</td>
-									<td>수원</td>
+									<td>Suwon</td>
 									<td>
 										<a href="mailto:servopack@aplus-motion.co.kr">servopack@aplus-motion.co.kr</a>
 									</td>
 								</tr>
 								<tr>
-									<td>세주모션</td>
-									<td>최정웅</td>
+									<td>(Seju Motion)</td>
+									<td>Jung-ung choi</td>
 									<td>
 										070-4063-1678
 									</td>
-									<td>부천</td>
+									<td>Bucheon</td>
 									<td>
 										<a href="mailto:never771@naver.com">never771@naver.com</a>
 									</td>
 								</tr>
 								<tr>
-									<td>레인보우시스템</td>
-									<td>김학철</td>
+									<td>(Rainbow system)</td>
+									<td>Hak-chul Kim</td>
 									<td>
 										041-554-8800
 									</td>
-									<td>천안</td>
+									<td>Cheonan</td>
 									<td>
 										<a href="mailto:rainbowsystem@rainbowsystem.co.kr">rainbowsystem@rainbowsystem.co.kr</a>
 									</td>
 								</tr>
 								<tr>
-									<td>코아테크</td>
-									<td>김광수</td>
+									<td>(Core tech)</td>
+									<td>Gwang-su Kim</td>
 									<td>
 										054-471-7898
 									</td>
-									<td>구미</td>
+									<td>Gumi</td>
 									<td>
 										<a href="mailto:core-tech1@nate.com">core-tech1@nate.com</a>
 									</td>

@@ -12,7 +12,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>CAREERS</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -23,8 +23,8 @@
         <section class="capable">
             <div class="container">
                 <div class="section-header">
-                    <h3>인재상</h3>
-                    <p>아진엑스텍은 다음과 같은 인재를 기다립니다</p>
+                    <h3>Careers</h3>
+                    <p>ajinextek is waiting for the following talent</p>
                 </div>
                 <div class="section-content">
                     <ul>
@@ -33,8 +33,8 @@
                                 <img src="/assets/images/careers/img_capable01.png" alt="창조">
                                 <figcaption>
                                     <dl>
-                                        <dt>창조</dt>
-                                        <dd>창조적이며 도전적으로<br>비젼을 성취하는 자</dd>
+                                        <dt>Creation</dt>
+                                        <dd>Creative and challenging<br>a visionary man</dd>
                                     </dl>
                                 </figcaption>
                             </figure>
@@ -44,8 +44,8 @@
                                 <img src="/assets/images/careers/img_capable02.png" alt="도전">
                                 <figcaption>
                                     <dl>
-                                        <dt>도전</dt>
-                                        <dd>진취적인 자세로 끊임없이<br>자기 계발을 하는자 </dd>
+                                        <dt>Challenge</dt>
+                                        <dd>in an aggressive manner<br>a self-developer</dd>
                                     </dl>
                                 </figcaption>
                             </figure>
@@ -55,8 +55,8 @@
                                 <img src="/assets/images/careers/img_capable03.png" alt="변화">
                                 <figcaption>
                                     <dl>
-                                        <dt>변화</dt>
-                                        <dd>변화와 미래를 선도하는<br> 글로벌 역량을 가진자</dd>
+                                        <dt>Change</dt>
+                                        <dd>driving change and future<br>Global Competence Person</dd>
                                     </dl>
                                 </figcaption>
                             </figure>
@@ -68,7 +68,7 @@
         <article class="recruitment">
             <div class="container">
                 <div class="article-header">
-                    <h4>채용 안내</h4>
+                    <h4>recruitment guidance</h4>
                 </div>
                 <div class="article-content">
                     <ol class="step-list">
@@ -107,7 +107,7 @@
         <article class="personnel">
             <div class="container">
                 <div class="article-header">
-                    <h4>인사제도</h4>
+                    <h4>personnel system</h4>
                 </div>
                 <div class="article-content">
                     <figure>
@@ -116,15 +116,15 @@
                     <ol class="circle-list">
                     	<li>
                     		<span>1</span>
-                    		성적 우수자 특진
+                    		special promotion of the best performers
                     	</li>
                     	<li>
                     		<span>2</span>
-                    		성과에 따른 인센티브 지급
+                    		Incentives based on performance
                     	</li>
                     	<li>
                     		<span>3</span>
-                    		우수사원 및 근속 포상
+                    		Award for outstanding employees and service
                     	</li>
                     </ol>
                 </div>
@@ -139,42 +139,42 @@
 								<figure>
 									<img src="/assets/images/careers/img_welfare01.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare01_on.png" class="img-hover" alt="">
-									<figcaption>가족체육대회</figcaption>
+									<figcaption>Family Sports Festival</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare02.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare02_on.png" class="img-hover" alt="">
-									<figcaption>문화공간</figcaption>
+									<figcaption>Cultural space</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare03.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare03_on.png" class="img-hover" alt="">
-									<figcaption>휴식공간</figcaption>
+									<figcaption>Resting space</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare04.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare04_on.png" class="img-hover" alt="">
-									<figcaption>워크샵</figcaption>
+									<figcaption>workshop</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare05.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare05_on.png" class="img-hover" alt="">
-									<figcaption>결혼기념일 선물</figcaption>
+									<figcaption>Wedding anniversary gift</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare06.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare06_on.png" class="img-hover" alt="">
-									<figcaption>사외교육 지원</figcaption>
+									<figcaption>outside<br> Training</figcaption>
 								</figure>
 							</td>
 						</tr>
@@ -183,42 +183,42 @@
 								<figure>
 									<img src="/assets/images/careers/img_welfare07.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare07_on.png" class="img-hover" alt="">
-									<figcaption>명절 선물</figcaption>
+									<figcaption>holiday present</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare08.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare08_on.png" class="img-hover" alt="">
-									<figcaption>기숙사 제공</figcaption>
+									<figcaption>Dormitory</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare09.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare09_on.png" class="img-hover" alt="">
-									<figcaption>우수사원 학비 지원</figcaption>
+									<figcaption>tuition for outstanding employees</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare10.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare10_on.png" class="img-hover" alt="">
-									<figcaption>중식/석식 제공</figcaption>
+									<figcaption>meal</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare11.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare11_on.png" class="img-hover" alt="">
-									<figcaption>경조사 휴가 지원</figcaption>
+									<figcaption>family event vacation</figcaption>
 								</figure>
 							</td>
 							<td>
 								<figure>
 									<img src="/assets/images/careers/img_welfare12.png" class="img-default" alt="">
 									<img src="/assets/images/careers/img_welfare12_on.png" class="img-hover" alt="">
-									<figcaption>체육시설</figcaption>
+									<figcaption>fitness center</figcaption>
 								</figure>
 							</td>
 						</tr>

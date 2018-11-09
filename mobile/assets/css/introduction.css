@@ -333,7 +333,8 @@ a {
     .location .section-content .tab-menu > ul > li > a {
       width: 100%;
       display: block;
-      line-height: 45px;
+      line-height: 18px;
+      padding: 14px 0;
       text-align: center;
       font-size: 13px;
       color: #333;
@@ -343,6 +344,8 @@ a {
     .location .section-content .tab-menu > ul > li.active > a {
       color: #fff;
       background-color: #4a90e2; }
+    .location .section-content .tab-menu > ul > li.space > a {
+      padding: 5px 0; }
 .location .section-content .information {
   margin-top: 50px; }
   .location .section-content .information h4 {

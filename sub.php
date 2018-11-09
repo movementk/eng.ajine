@@ -11,7 +11,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>COMPANY</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -206,7 +206,7 @@
                     <tbody>
                         <tr>
                             <th>회사명</th>
-                            <td>주식회사 아진엑스텍</td>
+                            <td>주식회사 ajinextek</td>
                             <th>연혁</th>
                             <td>1995년 01월 01일 부터 현재 까지</td>
                         </tr>
@@ -494,7 +494,7 @@
                                     <th>성명</th>
                                     <td>홍길동</td>
                                     <th>업체명</th>
-                                    <td>주식회사 아진엑스텍</td>
+                                    <td>주식회사 ajinextek</td>
                                 </tr>
                                 <tr>
                                     <th>전화번호</th>

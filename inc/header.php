@@ -14,15 +14,15 @@
                 <nav id="gnb">
                     <ul>
                         <li>
-                            <a href="/introduction/introduce.php">Company Information</a>
+                            <a href="/introduction/introduce.php">Company</a>
                             <div class="company-info">
                                 <div class="depth-2">
                                     <div class="intro">
                                         <h2>
                                             <small>AXT PRODUCT</small>
-                                            Company Information
+                                            Company
                                         </h2>
-                                        <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
+                                        <p>The product of the Ajinextek is complete with complete customer satisfaction.</p>
                                     </div>
                                     <div class="page-map">
                                         <ul>
@@ -39,7 +39,7 @@
                                                     <h3><a href="/introduction/history.php">History</a></h3>
                                                 </div>
                                                 <div>
-                                                    <h3><a href="/introduction/location.php">Way to come</a></h3>
+                                                    <h3><a href="/introduction/location.php">Directions</a></h3>
                                                 </div>
                                             </li>
                                             <li>
@@ -61,31 +61,31 @@
                             </div>
                         </li>
                         <li>
-                            <a href="/investment/finance_information.php">투자정보</a>
+                            <a href="/investment/finance_information.php">Investment</a>
                             <div class="investment-info">
                                 <div class="depth-2">
                                     <div class="intro">
                                         <h2>
                                             <small>AXT PRODUCT</small>
-                                            투자정보
+                                            Investment
                                         </h2>
-                                        <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
+                                        <p>The product of the Ajinextek is complete with complete customer satisfaction.</p>
                                     </div>
                                     <div class="page-map">
                                         <ul>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/investment/finance_information.php">재무정보</a></h3>
+                                                    <h3><a href="/investment/finance_information.php">Finance Information</a></h3>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/investment/stock_information.php">주식정보</a></h3>
+                                                    <h3><a href="/investment/stock_information.php">Stock Information</a></h3>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/investment/disclosure_information.php">공시정보</a></h3>
+                                                    <h3><a href="/investment/disclosure_information.php">Disclosure Information</a></h3>
                                                 </div>
                                             </li>
                                         </ul>
@@ -102,7 +102,7 @@
                                             <small>AXT PRODUCT</small>
                                             About item
                                         </h2>
-                                        <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
+                                        <p>The product of the Ajinextek is complete with complete customer satisfaction.</p>
                                         <div class="btn-area">
                                             <a href="#" class="btn btn-default btn-blue" role="button">견적 문의하기</a>
                                         </div>
@@ -189,7 +189,7 @@
                                             <small>AXT PRODUCT</small>
                                             Customer Support
                                         </h2>
-                                        <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
+                                        <p>The product of the Ajinextek is complete with complete customer satisfaction.</p>
                                     </div>
                                     <div class="page-map">
                                         <ul>
@@ -214,7 +214,7 @@
                                                     <h3><a href="/customer/faq_list.php"><span>FAQ</span></a></h3>
                                                 </div>
 												<div>
-                                                    <h3><a href="/customer/solution01.php">솔루션</a></h3>
+                                                    <h3><a href="/customer/solution01.php">Solution</a></h3>
                                                 </div>
                                             </li>
                                             <li>
@@ -236,7 +236,7 @@
                                             <small>AXT PRODUCT</small>
                                             Careers
                                         </h2>
-                                        <p>아진엑스텍의 제품은 완벽한 <br>고객만족으로 완성됩니다. </p>
+                                        <p>The product of the Ajinextek is complete with complete customer satisfaction.</p>
                                     </div>
                                     <div class="page-map">
                                         <ul>

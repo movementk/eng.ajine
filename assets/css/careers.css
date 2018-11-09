@@ -245,9 +245,9 @@ a {
           .careers-info .welfare .table-wrap .table tr td figure img.img-hover {
             display: none; }
         .careers-info .welfare .table-wrap .table tr td figure figcaption {
-          font-size: 15px;
+          font-size: 14px;
           color: #fff;
-          font-weight: 400;
+          font-weight: 300;
           margin-top: 20px; }
         .careers-info .welfare .table-wrap .table tr td:hover {
           background-color: #fff !important; }

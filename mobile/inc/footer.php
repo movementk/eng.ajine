@@ -12,7 +12,7 @@
         <div class="container">
             <div class="information">
                 <ul>
-                    <li>(주)아진엑스텍</li>
+                    <li>(주)ajinextek</li>
                     <li>
                         <dl>
                             <dt>대표이사</dt>

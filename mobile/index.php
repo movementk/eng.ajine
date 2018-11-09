@@ -27,11 +27,11 @@
                     <h2>For the 4th<br> Industrial Revolution</h2>
                 </li>
                 <!--<li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
-                    <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
+                    <p>더 나은 미래, ajinextek이 함께합니다</p>
                     <h2>TOGETHER,<br>FOREVER!</h2>
                 </li>
                 <li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
-                    <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
+                    <p>더 나은 미래, ajinextek이 함께합니다</p>
                     <h2>TOGETHER,<br>FOREVER!</h2>
                 </li>-->
             </ul>
@@ -94,7 +94,7 @@
                     <ul class="product-list">
                         <li class="p-slide">
                             <!--<h3>MOTION CHIP</h3>-->
-                            <p class="summary">CAMC Series는 아진엑스텍의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩</p>
+                            <p class="summary">CAMC Series는 ajinextek의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩</p>
                             <div class="product-info">
                                 <div class="details">
                                     <h4>MOTION CHIP</h4>
@@ -111,7 +111,7 @@
                         </li>
                         <li class="p-slide">
                             <!--<h3>MOTION CHIP2</h3>-->
-                            <p class="summary">CAMC Series는 아진엑스텍의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩2</p>
+                            <p class="summary">CAMC Series는 ajinextek의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩2</p>
                             <div class="product-info">
                                 <div class="details">
                                     <h4>MOTION CHIP2</h4>
@@ -128,7 +128,7 @@
                         </li>
                         <li class="p-slide">
                             <!--<h3>MOTION CHIP3</h3>-->
-                            <p class="summary">CAMC Series는 아진엑스텍의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩3</p>
+                            <p class="summary">CAMC Series는 ajinextek의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩3</p>
                             <div class="product-info">
                                 <div class="details">
                                     <h4>MOTION CHIP3</h4>

@@ -3,29 +3,29 @@
     <nav class="foot-nav">
         <div class="container">
             <ul>
-                <li><a href="#">문의하기</a></li>
-                <li><a href="#">다운로드</a></li>
-                <li><a href="#">대리점</a></li>
-                <li><a href="#">찾아오시는 길</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">download</a></li>
+                <li><a href="#">agency</a></li>
+                <li><a href="#">Directions</a></li>
             </ul>
         </div>
     </nav>
     <div class="company-info">
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-9">
                     <div class="information">
                         <ul>
-                            <li>(주)아진엑스텍</li>
+                            <li>ajinextek</li>
                             <li>
                                 <dl>
-                                    <dt>대표이사</dt>
-                                    <dd>김창호</dd>
+                                    <dt>CEO</dt>
+                                    <dd>Kim Chang-ho</dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
-                                    <dt>사업자등록번호</dt>
+                                    <dt>Business license number</dt>
                                     <dd>621-81-29249</dd>
                                 </dl>
                             </li>
@@ -39,9 +39,9 @@
                         <ul>
                             <li>
                                 <dl>
-                                    <dt class="bl-bold">본사(남부사무소) </dt>
+                                    <dt class="bl-bold">Head office(Daegu)(Southen office)</dt>
                                     <dd>
-                                        <address>대구광역시 달서구 성서공단로11길 27 </address>
+                                        <address>27, Seongseogongdan-ro 11-gil, Dalseo-gu, Daegu, 42714, Rep. of KOREA</address>
                                     </dd>
                                 </dl>
                             </li>
@@ -61,9 +61,9 @@
                         <ul>
                             <li>
                                 <dl>
-                                    <dt class="bl-bold">경인사무소</dt>
+                                    <dt class="bl-bold">Gunpo Branch(Gyeongin Office)</dt>
                                     <dd>
-                                        <address>경기도 군포시 고산로 148번길 17(당정동) 군포아이티밸리 A-1703~5호</address>
+                                        <address>A-1703~1705, IT Valley, 17, Gosan-ro 148beon-gil, Gunpo-si, Gyeonggi-do, 15850, Rep. of KOREA</address>
                                     </dd>
                                 </dl>
                             </li>
@@ -83,9 +83,9 @@
                         <ul>
                             <li>
                                 <dl>
-                                    <dt class="bl-bold">중부사무소</dt>
+                                    <dt class="bl-bold">Cheonan Branch(Central Office)</dt>
                                     <dd>
-                                        <address>충남 천안시 서북구 한들1로 95 천안백석기계공구단지 E202호</address>
+                                        <address>E202, 95, Handeul 1-ro, Seobuk-gu, Cheonan-si, Chungcheongnam-do, 31092, Rep. of KOREA</address>
                                     </dd>
                                 </dl>
                             </li>
@@ -104,7 +104,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-3">
                     <div class="copyright">
                         <h2 class="foot-logo"><img src="/assets/images/foot_logo.png" alt="logo"></h2>
                         <p class="copyright">(C) 2018 AJINEXTEK CO.,LTD. ALL RIGHTS RESERVED</p>

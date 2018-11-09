@@ -12,7 +12,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>CUSTOMER SERVICE</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -22,13 +22,13 @@
     <nav id="lnb">
         <div class="container">
             <ul class="lnb-list">
-                <li><a href="/customer/download.php">다운로드</a></li>
+                <li><a href="/customer/download.php">Download</a></li>
                 <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
                 <li><a href="/customer/faq_list.php">FAQ</a></li>
-                <li><a href="/customer/request_list.php">견적요청</a></li>
-                <li><a href="/customer/agency.php">대리점</a></li>
-                <li class="active"><a href="/customer/technical_terms.php">기술용어</a></li>
-                <li><a href="/customer/solution01.php">솔루션</a></li>
+                <li><a href="/customer/request_list.php">Request Quotation</a></li>
+                <li><a href="/customer/agency.php">Agency</a></li>
+                <li class="active"><a href="/customer/technical_terms.php">Technical Terms</a></li>
+                <li><a href="/customer/solution01.php">Solution</a></li>
             </ul>
         </div>
     </nav>
@@ -38,8 +38,8 @@
         <div class="container">
             <section class="technical-terms">
                 <div class="section-header">
-                    <h3>기술용어</h3>
-                    <p>아진 엑스텍의 제품과 관련된<br>모션 제어 기술에 대한 용어들을 쉽게 정의하였습니다.</p>
+                    <h3>Technical Terms</h3>
+                    <p>We have easily defined motion control technology terms related to Ajinextek’s products</p>
                 </div>
                 <div class="section-content">
                     <nav class="spelling-tab">

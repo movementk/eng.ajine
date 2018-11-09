@@ -318,6 +318,7 @@ a {
   .tab-menu > ul {
     font-size: 0; }
     .tab-menu > ul > li {
+      vertical-align: top;
       display: inline-block;
       margin: 0 5px; }
       .tab-menu > ul > li > a {
@@ -372,6 +373,9 @@ a {
           opacity: 1; }
         .tab-menu > ul > li.active > a:hover {
           opacity: 1; }
+      .tab-menu > ul > li.space a {
+        padding: 8px 0 8px;
+        line-height: 20px; }
       .tab-menu > ul > li:first-child {
         margin-left: 0; }
       .tab-menu > ul > li:last-child {

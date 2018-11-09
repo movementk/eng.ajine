@@ -334,7 +334,8 @@
                     > a {
                         width: 100%;
                         display: block;
-                        line-height: 45px;
+                        line-height: 18px;
+                        padding: 14px 0;
                         text-align: center;
                         font-size: 13px;
                         color: #333;
@@ -346,6 +347,11 @@
                         > a {
                             color: #fff;
                             background-color: #4a90e2;
+                        }
+                    }
+                    &.space {
+                        > a {
+                            padding: 5px 0;
                         }
                     }
                 }

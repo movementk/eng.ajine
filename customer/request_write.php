@@ -12,7 +12,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>CUSTOMER SERVICE</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -22,13 +22,13 @@
     <nav id="lnb">
         <div class="container">
             <ul class="lnb-list">
-                <li><a href="/customer/download.php">다운로드</a></li>
+                <li><a href="/customer/download.php">Download</a></li>
                 <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
                 <li><a href="/customer/faq_list.php">FAQ</a></li>
-                <li class="active"><a href="/customer/request_list.php">견적요청</a></li>
-                <li><a href="/customer/agency.php">대리점</a></li>
-                <li><a href="/customer/technical_terms.php">기술용어</a></li>
-                <li><a href="/customer/solution01.php">솔루션</a></li>
+                <li class="active"><a href="/customer/request_list.php">Request Quotation</a></li>
+                <li><a href="/customer/agency.php">Agency</a></li>
+                <li><a href="/customer/technical_terms.php">Technical Terms</a></li>
+                <li><a href="/customer/solution01.php">Solution</a></li>
             </ul>
         </div>
     </nav>
@@ -38,7 +38,7 @@
         <div class="container">
             <section class="request-write">
                 <div class="section-header">
-                    <h3>견적요청</h3>
+                    <h3>Request Quotation</h3>
                 </div>
                 <div class="section-content">
                     <div class="table-wrap">

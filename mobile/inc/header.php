@@ -53,7 +53,7 @@
     <nav id="gnb">
         <ul>
             <li>
-                <a href="#">Company Information</a>
+                <a href="#">Company</a>
                 <ul>
                     <li><a href="/mobile/introduction/introduce.php">About Us</a></li>
                     <li><a href="/mobile/introduction/history.php">History</a></li>

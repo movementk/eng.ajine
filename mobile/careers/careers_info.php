@@ -9,7 +9,7 @@
     <div class="page-header">
         <div class="container">
             <h2>CARREERS</h2>
-            <p>미래를 여는 기업 아진엑스텍입니다.</p>
+            <p>미래를 여는 기업 ajinextek입니다.</p>
         </div>
     </div>
 
@@ -22,7 +22,7 @@
 			<div class="container">
 				<div class="section-header">
 					<h3 class="section-title">인재상</h3>
-					<p class="summary">아진엑스텍은 다음과 같은 인재를 기다립니다.</p>
+					<p class="summary">ajinextek은 다음과 같은 인재를 기다립니다.</p>
 				</div>
 				<div class="section-content">
 					<ul class="talent-list">

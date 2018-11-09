@@ -12,7 +12,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>CUSTOMER SERVICE</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -22,13 +22,13 @@
     <nav id="lnb">
         <div class="container">
             <ul class="lnb-list">
-                <li><a href="/customer/download.php">다운로드</a></li>
+                <li><a href="/customer/download.php">Download</a></li>
                 <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
                 <li><a href="/customer/faq_list.php">FAQ</a></li>
-                <li><a href="/customer/request_list.php">견적요청</a></li>
-                <li><a href="/customer/agency.php">대리점</a></li>
-                <li><a href="/customer/technical_terms.php">기술용어</a></li>
-                <li class="active"><a href="/customer/solution01.php">솔루션</a></li>
+                <li><a href="/customer/request_list.php">Request Quotation</a></li>
+                <li><a href="/customer/agency.php">Agency</a></li>
+                <li><a href="/customer/technical_terms.php">Technical Terms</a></li>
+                <li class="active"><a href="/customer/solution01.php">Solution</a></li>
             </ul>
         </div>
     </nav>
@@ -38,19 +38,19 @@
         <div class="container">
             <section class="solution">
                 <div class="section-header">
-                    <h3>솔루션</h3>
-                    <p>(주)아진엑스텍은 새로운 제어 패러다임을 열어갑니다.</p>
+                    <h3>Solution</h3>
+                    <p>Ajinextek opens up a new control paradigm.</p>
                 </div>
                 <div class="section-content">
                     <nav class="solution-tabs">
                         <ul>
-                            <li><a href="/customer/solution01.php">반도체공정 분야</a></li>
-                            <li><a href="/customer/solution02.php">반도체 후공정 분야</a></li>
-                            <li><a href="/customer/solution03.php">가공기 분야</a></li>
-                            <li><a href="/customer/solution04.php">태양광 분야</a></li>
-                            <li><a href="/customer/solution05.php">PCB/전자산업 분야</a></li>
-                            <li class="active"><a href="/customer/solution06.php">FPD 분야</a></li>
-                            <li><a href="/customer/solution07.php">LED 후공정 분야</a></li>
+                            <li><a href="/customer/solution01.php">semiconductor process</a></li>
+                            <li><a href="/customer/solution02.php">post semiconductor process</a></li>
+                            <li><a href="/customer/solution03.php">processing machine</a></li>
+                            <li><a href="/customer/solution04.php">Photovoltaic machine</a></li>
+                            <li><a href="/customer/solution05.php">PCB/ Electronic industry</a></li>
+                            <li class="active"><a href="/customer/solution06.php">FPD</a></li>
+                            <li><a href="/customer/solution07.php">post LED</a></li>
                         </ul>
                     </nav>
                     <article class="solution-list">
@@ -60,7 +60,7 @@
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
                                         <h4>COG(Chip On Glass) /FOG(Film On Glass)BONDER</h4>
-                                        <p>Glass Panel에 Bare Die(IC)를 접착하는 방식이며, 많은 Bonding방법중의 하나로써  응용발전된 초박형, 경량화로 인해 접속 피치의미세화에 대응하는 새로운 실장방식, 즉 LCD의 Panel위에 ACF를 부착하고  BumpedIC에 일정한 압력과 온도로 Bonding하는 장비임</p>
+                                        <p>This method is to attach Bare Die(IC) to the glass panel. As one of the many bonding methods, it is applied ultra-thin, lightweight, and a new corrosion protection method for the connection pitch.</p>
                                     </div>
                                     <figure>
                                         <img src="/assets/images/customer/solution_product20.jpg" alt="">
@@ -72,7 +72,7 @@
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
                                         <h4>LTR</h4>
-                                        <p>LTR(LCD Transfer Robot)로봇은 LCD 생산라인에서 사용되는 것으로, LCD생산 프로세스 중유리원판(Mother Glass)을 이동하는 과정에서발생할 수 있는 “휨 현상”을 차단하는 이송용 로봇임</p>
+                                        <p>The LTR (LCD Transfer Robot) robot is used in the LCD production line and prevents "bending" phenomena that may occur during the movement of the rotary glass plate of the LCD production process.</p>
                                     </div>
                                     <figure>
                                         <img src="/assets/images/customer/solution_product21.jpg" alt="">
@@ -84,7 +84,7 @@
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
                                         <h4>LCD PIXEL INSPECTION</h4>
-                                        <p>Glass 표면위에 있는 불 특정한 결함, 얼룩을 Vision System과 Image Process기술을 응용 하여 검출하여 결함정보를 자동으로 분류 하고판정하는 검사장비</p>
+                                        <p>Inspection equipment that automatically categorizes and determines defect information by detecting fire-specific defects and stains on the glass surface using Vision System and Image Process technology.</p>
                                     </div>
                                     <figure>
                                         <img src="/assets/images/customer/solution_product22.jpg" alt="">
@@ -96,7 +96,7 @@
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
                                         <h4>COF INSPECTION</h4>
-                                        <p>Film상의 회로를 보호하기 위해 커버 필름을 Sheet타입으로 절단, 비젼 시스템으로 위치추적 후 정밀 위치 보정하여 베이스 필름 상에 부착 및 라미네이팅 하는 장비</p>
+                                        <p>Equipment to cut cover film into sheet type, trace it to vision system, correct its precise position, attach it to base film, and laminate it to protect the circuit on film.</p>
                                     </div>
                                     <figure>
                                         <img src="/assets/images/customer/solution_product23.jpg" alt="">

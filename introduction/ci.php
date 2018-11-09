@@ -12,7 +12,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>COMPANY</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                 <li><a href="/introduction/vision.php">Vision</a></li>
                 <li><a href="/introduction/group.php">Organization chart</a></li>
                 <li><a href="/introduction/news_list.php">AJIN News</a></li>
-                <li><a href="/introduction/location.php">Way to come</a></li>
+                <li><a href="/introduction/location.php">Directions</a></li>
                 <li class="active"><a href="/introduction/ci.php">About CI</a></li>
             </ul>
         </div>
@@ -79,13 +79,13 @@
                                 <li>
                                     <figure>
                                         <img src="/assets/images/introduction/img_logo_color02.jpg" alt="">
-                                        <figcaption>Blue background white</figcaption>
+                                        <figcaption>Blue&amp;White</figcaption>
                                     </figure>
                                 </li>
                                 <li>
                                     <figure>
                                         <img src="/assets/images/introduction/img_logo_color03.jpg" alt="">
-                                        <figcaption>Silver background white</figcaption>
+                                        <figcaption>Silver&amp;White</figcaption>
                                     </figure>
                                 </li>
                                 <li>
@@ -103,7 +103,7 @@
                                 <li>
                                     <figure>
                                         <img src="/assets/images/introduction/img_logo_color06.jpg" alt="">
-                                        <figcaption>Black background white</figcaption>
+                                        <figcaption>Black&amp;White</figcaption>
                                     </figure>
                                 </li>
                             </ul>

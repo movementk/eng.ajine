@@ -241,6 +241,7 @@
     > ul {
         font-size: 0;
         > li {
+            vertical-align: top;
             display: inline-block;
             margin: 0 5px;
             > a {
@@ -288,6 +289,12 @@
                     &:hover {
                         opacity: 1;
                     }
+                }
+            }
+            &.space {
+                a {
+                    padding: 8px 0 8px;
+                    line-height: 20px;
                 }
             }
             &:first-child {

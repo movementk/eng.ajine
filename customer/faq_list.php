@@ -12,7 +12,7 @@
             <div class="page-summary">
                 <div class="v-align">
                     <h2>CUSTOMER SERVICE</h2>
-                    <p>미래를 여는 기업 아진엑스텍입니다</p>
+                    <p>미래를 여는 기업 ajinextek입니다</p>
                 </div>
             </div>
         </div>
@@ -22,13 +22,13 @@
     <nav id="lnb">
         <div class="container">
             <ul class="lnb-list">
-                <li><a href="/customer/download.php">다운로드</a></li>
+                <li><a href="/customer/download.php">Download</a></li>
                 <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
                 <li class="active"><a href="/customer/faq_list.php">FAQ</a></li>
-                <li><a href="/customer/request_list.php">견적요청</a></li>
-                <li><a href="/customer/agency.php">대리점</a></li>
-                <li><a href="/customer/technical_terms.php">기술용어</a></li>
-                <li><a href="/customer/solution01.php">솔루션</a></li>
+                <li><a href="/customer/request_list.php">Request Quotation</a></li>
+                <li><a href="/customer/agency.php">Agency</a></li>
+                <li><a href="/customer/technical_terms.php">Technical Terms</a></li>
+                <li><a href="/customer/solution01.php">Solution</a></li>
             </ul>
         </div>
     </nav>
@@ -143,7 +143,7 @@
                                             <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5" role="button">
                                                 <dl>
                                                     <dt>기술문의</dt>
-                                                    <dd>[홈페이지]서보 드라이버 결선도 다운로드 방법</dd>
+                                                    <dd>[홈페이지]서보 드라이버 결선도 Download 방법</dd>
                                                 </dl>
                                             </a>
                                         </div>
@@ -233,7 +233,7 @@
                     </nav>
                     <div class="attention-box">
                         <p>
-                            주식회사 아진엑스텍 고객님들을 위해 제품과 관련하여 자주 질문하시는 내용과 답변이 정리되어 있습니다.<br>
+                            주식회사 ajinextek 고객님들을 위해 제품과 관련하여 자주 질문하시는 내용과 답변이 정리되어 있습니다.<br>
                             TECHNICAL TIPS에서 고객님의 궁금증을 찾으시지 못하셨다면 [고객문의 바로가기]를 클릭하신 후 질문하여 주세요.<br>
                             신속히 답변드리겠습니다.
                         </p>

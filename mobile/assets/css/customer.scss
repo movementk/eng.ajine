@@ -625,12 +625,12 @@
                 overflow: hidden;
                 li {
                     float: left;
-                    width: 32%;
+                    width: 49%;
                     margin-right: 2%;
-                    &:nth-of-type(3n + 3) {
+                    &:nth-of-type(2n + 2) {
                         margin-right: 0;
                     }
-                    &:nth-of-type(3) ~ li {
+                    &:nth-of-type(2) ~ li {
                         margin-top: 2%;
                     }
                     a {
@@ -638,7 +638,8 @@
                         width: 100%;
                         font-size: 12px;
                         color: #333;
-                        line-height: 40px;
+                        padding: 14px 0;
+                        line-height: 18px;
                         border-radius: 30px;
                         text-align: center;
                         background-color: #e5e5e5;
@@ -647,6 +648,11 @@
                         a {
                             color: #fff;
                             background-color: #4a90e2;
+                        }
+                    }
+                    &.space {
+                        a {
+                            padding: 5px 0;
                         }
                     }
                 }
