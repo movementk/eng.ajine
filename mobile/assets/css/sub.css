@@ -123,7 +123,7 @@ a {
 
 .form-control {
   width: 100%;
-  font-size: 13px;
+  font-size: 12px;
   color: #999;
   height: 45px;
   border: 1px solid #e3e3e3; }
@@ -223,7 +223,8 @@ a {
       position: absolute;
       top: 0;
       left: 0;
-      width: 110px; }
+      width: 110px;
+      padding: 0; }
     .search-form .form-group input[type="text"] {
       padding-right: 50px; }
     .search-form .form-group .default-search {
@@ -263,7 +264,8 @@ a {
         position: absolute;
         top: 0;
         left: 0;
-        width: 110px; }
+        width: 110px;
+        padding: 0; }
       .search-form-1 .form-group ~ .form-group input[type="text"] {
         padding-right: 50px; }
       .search-form-1 .form-group ~ .form-group .btn-search-1 {
@@ -286,7 +288,8 @@ a {
     overflow: hidden; }
     .search-form-2 .form-group select {
       float: left;
-      margin-right: 2%; }
+      margin-right: 2%;
+      padding: 0; }
       .search-form-2 .form-group select:first-child {
         width: 58%; }
       .search-form-2 .form-group select:last-child {
@@ -362,8 +365,9 @@ a {
         text-decoration: none !important; }
         .faq-board .accordion .card .card-header > a:before {
           position: absolute;
-          top: 0;
+          top: 50%;
           left: 0;
+          margin-top: -14px;
           width: 28px;
           color: #fff;
           font-size: 10px;
@@ -406,7 +410,8 @@ a {
           line-height: 28px;
           margin-left: 38px;
           color: #282828;
-          word-break: keep-all; }
+          word-break: keep-all;
+          white-space: normal; }
         .faq-board .accordion .card .card-header > a.collapsed:before {
           color: #666;
           background-color: #f4f4f4; }
@@ -423,7 +428,19 @@ a {
       line-height: 22px;
       padding: 20px 10px 20px 48px;
       background-color: #fcfcfd;
-      border-bottom: 1px solid #ccc; }
+      border-bottom: 1px solid #ccc;
+      /*table {
+          width: 100% !important;
+          tbody {
+              tr {
+                  td {
+                      img {
+                          max-width: 100% !important;
+                      }
+                  }
+              }
+          }
+      }*/ }
       .faq-board .accordion .card .card-body:before {
         position: absolute;
         top: 16px;

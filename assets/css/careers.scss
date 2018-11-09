@@ -124,12 +124,15 @@
 					}
 					&:last-child {
 						background-color: #f36f21;
-						padding-top: 50px;
+						padding-top: 30px;
 						margin-right: 0;
 						&:after {
 							display: none;
 						}
 					}
+                    &.space {
+                        padding-top: 48px;
+                    }
 				}
 			}
 			.circle-list {

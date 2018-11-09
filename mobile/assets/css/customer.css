@@ -130,6 +130,127 @@ a {
   font-family: 'Maven Pro', sans-serif;
   border-left: 2px solid #4a90e2; }
 
+.download .section-content .down-area {
+  margin-top: 30px; }
+  .download .section-content .down-area .accordion-list > .accordion > .card {
+    border: 0;
+    border-radius: 0; }
+    .download .section-content .down-area .accordion-list > .accordion > .card ~ .card {
+      margin-top: 10px; }
+    .download .section-content .down-area .accordion-list > .accordion > .card .card-header {
+      padding: 0;
+      border: 0;
+      background: none !important; }
+      .download .section-content .down-area .accordion-list > .accordion > .card .card-header .btn-link {
+        display: block;
+        text-align: left;
+        line-height: 38px;
+        padding: 0 10px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 13px;
+        color: #fff;
+        border: 1px solid #0c3c8e;
+        font-family: 'Maven Pro', sans-serif;
+        background-color: #0c3c8e;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+        text-decoration: none !important; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-header .btn-link:after {
+          font-family: "fontello";
+          content: "\E804";
+          float: right; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-header .btn-link.collapsed {
+          color: #333;
+          background-color: #fff;
+          border: 1px solid #ccc; }
+          .download .section-content .down-area .accordion-list > .accordion > .card .card-header .btn-link.collapsed:after {
+            content: "\E805"; }
+          .download .section-content .down-area .accordion-list > .accordion > .card .card-header .btn-link.collapsed:hover {
+            color: #fff;
+            background-color: #0c3c8e; }
+    .download .section-content .down-area .accordion-list > .accordion > .card .card-body {
+      padding: 0; }
+      .download .section-content .down-area .accordion-list > .accordion > .card .card-body .table-responsive .table {
+        font-family: 'Maven Pro', sans-serif; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-body .table-responsive .table caption {
+          font-size: 13px;
+          font-weight: 500;
+          color: #fff;
+          letter-spacing: 1px;
+          padding: 0 10px;
+          line-height: 40px;
+          caption-side: top;
+          background-color: #0c3c8e; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-body .table-responsive .table thead tr th {
+          font-size: 13px;
+          font-weight: 500;
+          border: 0;
+          border-bottom: 1px solid #292929;
+          background: none; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-body .table-responsive .table tbody tr td {
+          font-size: 13px;
+          color: #666;
+          font-weight: 400;
+          border: 0;
+          border-bottom: 1px solid #d6d6d6; }
+          .download .section-content .down-area .accordion-list > .accordion > .card .card-body .table-responsive .table tbody tr td a img {
+            width: 16px; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-body .table-responsive .table tbody tr:last-child td {
+          border-bottom: 1px solid #292929; }
+      .download .section-content .down-area .accordion-list > .accordion > .card .card-body.direct-content {
+        padding: 15px 10px;
+        border: 1px solid #ccc;
+        border-top: 0; }
+      .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card {
+        border: 0; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card .card-header .btn-link-2 {
+          display: block;
+          text-align: left;
+          line-height: 38px;
+          padding: 0 10px;
+          width: 100%;
+          font-weight: 500;
+          font-size: 13px;
+          font-family: 'Maven Pro', sans-serif;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+          color: #0c3c8e !important;
+          border: 1px solid #ccc;
+          border-top: 0;
+          background-color: #f5f5f5 !important;
+          text-decoration: none !important; }
+          .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card .card-header .btn-link-2:after {
+            font-family: "fontello";
+            content: "\E804";
+            float: right; }
+          .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card .card-header .btn-link-2.collapsed {
+            color: #333 !important; }
+            .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card .card-header .btn-link-2.collapsed:after {
+              content: "\E805"; }
+            .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card .card-header .btn-link-2.collapsed:hover {
+              color: #0c3c8e !important;
+              background-color: #f5f5f5 !important; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card .card-body {
+          padding: 15px 10px;
+          border: 1px solid #ccc;
+          border-top: 0; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card:first-child .card-body {
+          border-bottom: 1px solid #ccc; }
+        .download .section-content .down-area .accordion-list > .accordion > .card .card-body > .depth-2 > .card ~ .card .card-header .btn-link-2 {
+          border-top: 0; }
 .download .section-content .down-list {
   margin-top: 30px; }
   .download .section-content .down-list .table-responsive .table {

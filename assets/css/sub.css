@@ -176,13 +176,15 @@ a {
     #lnb .lnb-list > li {
       display: table-cell;
       width: 1%;
+      vertical-align: top;
       text-align: center;
       border-right: 1px solid #dfdfdf; }
       #lnb .lnb-list > li > a {
         display: block;
         font-size: 15px;
         color: #666;
-        line-height: 65px;
+        line-height: 22px;
+        padding: 21px 0;
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 0.15s;
@@ -201,6 +203,8 @@ a {
           letter-spacing: -.5px; }
       #lnb .lnb-list > li:first-child {
         border-left: 1px solid #dfdfdf; }
+      #lnb .lnb-list > li.space > a {
+        padding: 10px 0 9px; }
       #lnb .lnb-list > li.active > a {
         color: #fff;
         background-color: #4a90e2; }
