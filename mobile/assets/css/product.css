@@ -273,6 +273,7 @@ a {
       font-weight: 500;
       font-family: 'Maven Pro', sans-serif; }
     .product-view .product-details p {
+      display: none;
       font-size: 13px;
       color: #333;
       font-weight: 400;

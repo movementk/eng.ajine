@@ -228,6 +228,7 @@
             @include maven();
         }
         p {
+            display: none;
             font-size: 13px;
             color: #333;
             font-weight: 400;

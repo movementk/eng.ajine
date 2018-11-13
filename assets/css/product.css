@@ -227,6 +227,7 @@ a {
       font-weight: 500;
       font-family: 'Maven Pro', sans-serif; }
     .product-view .section-content .product-tab-details .article-header > div > dl > dd {
+      display: none;
       font-weight: 400;
       font-size: 20px;
       color: #333; }

@@ -168,6 +168,7 @@
                             @include maven();
                         }
                         > dd {
+                            display: none;
                             font-weight: 400;
                             font-size: 20px;
                             color: #333;
