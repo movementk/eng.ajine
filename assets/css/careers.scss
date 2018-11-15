@@ -84,8 +84,8 @@
 	.recruitment {
 		.article-header {
 			h4 {
-				color: #fff;
-				border-color: #fff;
+				color: #333;
+				border-color: #5c9be5;
 			}
 		}
 		.article-content {
@@ -113,7 +113,7 @@
 						margin-top: -16px;
 						font-family: "fontello";
 						font-size: 25px;
-						color: #fff;
+						color: #aaa;
 					}
 					> i {
 						display: block;
@@ -139,8 +139,8 @@
 				margin-top: 50px;
 				> li {
 					span {
-						color: #000;
-						background-color: #fff;
+						color: #fff;
+						background-color: #5c9be5;
 					}
 				}
 			}
@@ -257,10 +257,11 @@
 article {
     padding-bottom: 100px;
     &.recruitment {
-        background-image: url(/assets/images/careers/bg_recruitment.jpg);
+        /*background-image: url(/assets/images/careers/bg_recruitment.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 50% 50%;
+        background-position: 50% 50%;*/
+        background-color: #f0f0f0;
     }
 }
 
@@ -297,7 +298,7 @@ article {
 			dt {
 				display: inline-block;
 				font-size: 15px;
-				color: #fff;
+				color: #333;
 				&:after {
 					content: ":";
 					display: inline-block;
@@ -307,7 +308,7 @@ article {
 			dd {
 				display: inline-block;
 				font-size: 15px;
-				color: #fff;
+				color: #333;
 			}
 		}
 	}

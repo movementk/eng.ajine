@@ -301,9 +301,9 @@ a {
             color: #666;
             line-height: 28px;
             font-weight: 400; }
-            .history .section-content .history-list .content-body .history-year > li > div.details > ul > li > b {
-              color: #4891dc;
-              font-weight: 500; }
+        .history .section-content .history-list .content-body .history-year > li > div.details b {
+          color: #4891dc;
+          font-weight: 500; }
 
 .vision .section-content .global-provider {
   text-align: center;

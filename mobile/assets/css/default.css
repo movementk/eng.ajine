@@ -383,6 +383,25 @@ body {
     background-image: url(/mobile/assets/images/ico_minus.png); }
   #gnb > ul > li.active > ul {
     display: block; }
+  #gnb .btn-language {
+    padding: 0 10px;
+    overflow: hidden;
+    margin-top: 50px; }
+    #gnb .btn-language .btn-default {
+      float: left;
+      width: 49%;
+      height: 40px;
+      display: block;
+      font-size: 12px;
+      color: #333;
+      line-height: 38px;
+      text-align: center;
+      margin-right: 2%;
+      font-weight: 500;
+      border: 1px solid #aaa;
+      font-family: 'Maven Pro', sans-serif; }
+      #gnb .btn-language .btn-default:last-child {
+        margin-right: 0; }
 
 .opened {
   overflow: hidden; }

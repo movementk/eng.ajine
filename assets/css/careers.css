@@ -162,8 +162,8 @@ a {
                 line-height: 22px;
                 margin-top: 10px; }
   .careers-info .recruitment .article-header h4 {
-    color: #fff;
-    border-color: #fff; }
+    color: #333;
+    border-color: #5c9be5; }
   .careers-info .recruitment .article-content .step-list {
     font-size: 0; }
     .careers-info .recruitment .article-content .step-list li {
@@ -188,7 +188,7 @@ a {
         margin-top: -16px;
         font-family: "fontello";
         font-size: 25px;
-        color: #fff; }
+        color: #aaa; }
       .careers-info .recruitment .article-content .step-list li > i {
         display: block;
         font-style: normal;
@@ -206,8 +206,8 @@ a {
   .careers-info .recruitment .article-content .circle-list {
     margin-top: 50px; }
     .careers-info .recruitment .article-content .circle-list > li span {
-      color: #000;
-      background-color: #fff; }
+      color: #fff;
+      background-color: #5c9be5; }
   .careers-info .personnel .article-content .circle-list {
     margin-top: 35px; }
     .careers-info .personnel .article-content .circle-list > li {
@@ -283,10 +283,11 @@ a {
 article {
   padding-bottom: 100px; }
   article.recruitment {
-    background-image: url(/assets/images/careers/bg_recruitment.jpg);
+    /*background-image: url(/assets/images/careers/bg_recruitment.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%; }
+    background-position: 50% 50%;*/
+    background-color: #f0f0f0; }
 
 .circle-list > li {
   position: relative;
@@ -317,7 +318,7 @@ article {
     .circle-list > li > dl dt {
       display: inline-block;
       font-size: 15px;
-      color: #fff; }
+      color: #333; }
       .circle-list > li > dl dt:after {
         content: ":";
         display: inline-block;
@@ -325,6 +326,6 @@ article {
     .circle-list > li > dl dd {
       display: inline-block;
       font-size: 15px;
-      color: #fff; }
+      color: #333; }
 
 /*# sourceMappingURL=careers.css.map */

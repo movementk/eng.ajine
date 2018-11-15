@@ -355,6 +355,49 @@ a {
               content: "\E809"; }
             .product-view .product-details .details .btn-area p .btn.btn-estimate:before {
               content: "\E80E"; }
+  .product-view .accessory {
+    margin-top: 45px; }
+    .product-view .accessory .article-header h4 {
+      font-size: 16px;
+      color: #333;
+      font-weight: 400;
+      margin-bottom: 20px;
+      padding-left: 25px;
+      background-image: url(/mobile/assets/images/investment/bg_sub_title.gif);
+      background-repeat: no-repeat;
+      background-size: 15px auto;
+      background-position: 0 50%; }
+    .product-view .accessory .article-content ul li a {
+      display: block;
+      border: 1px solid #dfdfdf; }
+      .product-view .accessory .article-content ul li a .accessory-item {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        height: 130px; }
+        .product-view .accessory .article-content ul li a .accessory-item figure {
+          display: table-cell;
+          vertical-align: middle;
+          padding: 0 5%; }
+          .product-view .accessory .article-content ul li a .accessory-item figure .img-fluid {
+            width: 100%; }
+      .product-view .accessory .article-content ul li a .details {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        text-align: center;
+        border-top: 1px solid #dfdfdf; }
+        .product-view .accessory .article-content ul li a .details > h5 {
+          display: table-cell;
+          height: 46px;
+          width: 100%;
+          line-height: 14px;
+          font-size: 11px;
+          color: #333;
+          font-weight: 400;
+          vertical-align: middle; }
+    .product-view .accessory .article-content ul li:nth-of-type(2) ~ li a {
+      margin-top: 10px; }
   .product-view .btn-prev {
     margin-top: 30px; }
     .product-view .btn-prev p > .btn-lg {
