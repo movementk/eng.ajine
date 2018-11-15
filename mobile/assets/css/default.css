@@ -389,14 +389,14 @@ body {
     margin-top: 50px; }
     #gnb .btn-language .btn-default {
       float: left;
-      width: 49%;
+      width: 48%;
       height: 40px;
       display: block;
       font-size: 12px;
       color: #333;
       line-height: 38px;
       text-align: center;
-      margin-right: 2%;
+      margin-right: 4%;
       font-weight: 500;
       border: 1px solid #aaa;
       font-family: 'Maven Pro', sans-serif; }
